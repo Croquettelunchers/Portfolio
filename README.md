@@ -1,3 +1,11 @@
+[Home](index.md) | [About](about.md) | [Projects](projects.md)
+
+<nav>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/projects">Projects</a>
+</nav>
+
 # Interior Lighting
 
 ![Alt text yeah](Interiors/Interior1.png)
