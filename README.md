@@ -2,8 +2,8 @@
 
 <nav>
   <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/projects">Projects</a>
+  <a href="/About">About</a>
+  <a href="/Projects">Projects</a>
 </nav>
 
 # Interior Lighting
@@ -13,5 +13,5 @@
 <img src="Projects/Interiors/Interior1.png" alt="Alt text" width="300" />
 
 <video controls width="560" style="display: block; margin: 0 auto;">
-  <source src="Tech/EdgeMapping.mp4" type="video/mp4">
+  <source src="Projects/TechnicalArt/EdgeMapping.mp4" type="video/mp4">
 </video>
