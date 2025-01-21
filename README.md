@@ -9,7 +9,7 @@
 
 # Interior Lighting
 
-![Alt text yeah](Interiors/Interior1.png)
+<!-- ![Alt text yeah](Interiors/Interior1.png) -->
 
 <img src="Projects/Interiors/Interior1.png" alt="Alt text" width="300" />
 
