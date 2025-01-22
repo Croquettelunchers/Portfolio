@@ -1,8 +1,3 @@
----
-layout: default
-title: Portfolio
----
-
 [Home](index.md) | [Projects](Projects.md) 
 
 # Wanna play some Megan, man?
