@@ -103,10 +103,13 @@ The Charged Shot is intentionnaly constrained in favor of environmental weaponry
 </details>  
 
 I even made some music using Ableton
-
-<audio controls>
-  <source src="Projects/Megan/CharacterSelect.mp3" type="audio/mpeg">
-</audio>
+ 
+<br/>
+ 
 <audio controls>
   <source src="Projects/Megan/MegamanCharacterSelectScreen3.wav" type="audio/wav">
 </audio>
+<audio controls>
+  <source src="Projects/Megan/CharacterSelect.mp3" type="audio/mpeg">
+</audio>
+
