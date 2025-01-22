@@ -6,7 +6,7 @@
 -->
 
 
-<div style="display: flex-wrap; gap: 10px;">
+<div style="display: flex-wrap: wrap;gap: 10px;">
   <a href="Megan.md">
     <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
   </a>
