@@ -7,6 +7,7 @@ Most of the project was done using visual scripting in Unity.
 https://croquettelunchers.github.io/Megan/
 
 ### Megan can:  
+
 | Action | info | Keyboard Controls | Controller Controls |
 |---|---|---|---|
 | Movement ||||
