@@ -7,10 +7,10 @@
 
 
 <div style="display: grid; grid-template-columns: 5fr 5fr; gap: 10px;">
-  <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Image 1" style="height: 200px;">
-  <img src="Projects/Interiors/Interior1.png" alt="Image 2" style="height: 200px;">
-  <img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="Image 3" style="height: 200px;">
-  <img src="Projects/VFX/UIReticle2.jpg" alt="Image 3" style="height: 200px;">
+  <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Image 1" style="height: 200px;" (Megan.md)>
+  <img src="Projects/Interiors/Interior1.png" alt="Image 2" style="height: 200px;" (Interiors.md)>
+  <img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="Image 3" style="height: 200px;" (FakeInteriors.md)>
+  <img src="Projects/VFX/UIReticle2.jpg" alt="Image 3" style="height: 200px;" (Megan.md)>
 </div>
 
 <video controls width="560" style="display: block; margin: 0 auto;">
