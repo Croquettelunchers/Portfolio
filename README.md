@@ -1,4 +1,4 @@
-[Home](index.md) | [About](about.md) | [Projects](https://croquettelunchers.github.io/Portfolio/projects.md) 
+[Home](index.md) | [About](about.md) | [Projects](projects.md) 
 
 
 <!-- 
