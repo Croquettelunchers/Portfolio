@@ -1,4 +1,4 @@
-[Home](index.md) | [About](About.md) | [Projects](Projects.md) 
+[Home](index.md) | [Projects](Projects.md) 
 
 ![Alt text yeah](Interiors/Interior1.png)
 
