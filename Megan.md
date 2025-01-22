@@ -2,21 +2,15 @@
 
 ## Wanna play some Megan, man?
 Megan is a fun little pixelart platformer project that I use to test whatever comes to mind.  
-<img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 32px; width: auto">
-It was never intended to be a portfolio piece, but here we are. In fact, I specificaly started this project with the intention of never finishing it  
-Aseprite and Pixly were used to create the sprites.  
-Most of the code was done using visual scripting in Unity.  
+This was never meant to be a portfolio piece (but here we are). It was designed to quench The Thirst, the thirst for making games.  
 
-
-
-
-give it a spin!  
 <a href="https://croquettelunchers.github.io/Megan/">
     <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 100px; width: auto">
   </a>
   
-[Let me Play Megan!](https://croquettelunchers.github.io/Megan/)
-### Megan can: 
+[give it a spin!](https://croquettelunchers.github.io/Megan/)  
+
+Megan can: 
 <details>
  <summary>Show list of controls</summary>
     
@@ -39,5 +33,28 @@ give it a spin!
 | Dribble the ball  |reacts to jumps and slides |   |    |
 | Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them  |   |    |
 | Stop hacking | Stop hacking by jumping out   | Space  | Button South   |
+| Switch to V | Change character  | Right Shift  |    |
 </details>
+
+Aseprite and Pixly were used to create the sprites.  
+Most of the code was done using visual scripting in Unity.  
+
+<details>
+ <summary>Here are a few notes about the design</summary>
+I'm challenging myself to avoid double jumping and walljumps.
+The Charged Shot is intentionnaly constrained in favor of environmental weaponry, 
+    
+ </details>
+
+<video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4">
+</video>
+
+<details>
+ <summary>Display Gallery</summary>
+<div style="display: flex-wrap: wrap;gap: 10px;">
+    
+
+    </div>
+ </details>
 
