@@ -12,8 +12,7 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 
 
 <details>
- <summary>Megan can: 🔽</summary>
-    
+ <summary>Megan Controls: 🔽</summary>
 | Action | info | Keyboard Controls | Controller Controls |
 |---|---|---|---|
 | Movement ||||
@@ -34,7 +33,6 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 | Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them  |   |    |
 | Stop hacking | Stop hacking by jumping out   | Space  | Button South   |
 | Switch to V | Change character  | Right Shift  |    |   
-
 </details>
 
  <br/>
@@ -108,8 +106,10 @@ I even made some music using Ableton
  
 <audio controls>
   <source src="Projects/Megan/MegamanCharacterSelectScreen3.wav" type="audio/wav">
+    PS1-Style
 </audio>
 <audio controls>
   <source src="Projects/Megan/CharacterSelect.mp3" type="audio/mpeg">
+    NES-Style
 </audio>
 
