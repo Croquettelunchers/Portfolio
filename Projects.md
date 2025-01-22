@@ -6,7 +6,7 @@
 -->
 
 
-<div style="display: flex; gap: 10px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
   <a href="Megan.md">
     <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
   </a>
