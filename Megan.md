@@ -8,15 +8,15 @@ https://croquettelunchers.github.io/Megan/
 
 ### Megan can:  
 | Action | info | Keyboard Controls | Controller Controls |
-|----------|----------|----------|----------|
-| Movement |--- |--- |--- |
+|---|---|---|---|
+| Movement ||||
 | Jump     |          | Space    | South Button  |
 | Walk     |          | A or D   | Left, Right  |
 | Crouch   |          | S        | Down   |
 | Slide    |          | S + Space   | Down + South Button  |
 | Sprint   |          | Row 1B   | Row 1C   |
 | Cling to walls  | touch a wall while falling | Row 2B   | Row 2C   |
-| Actions |--- |--- |--- |
+| Actions ||||
 | shoot charged shots | charged shots only for now, maybe, who knows? | Press and hold Q or K, then release  | Press and hold Button West, then release   |
 | Grab (or rip) | nearby things in front or under her   | Q or K  | Button West  |
 | Throw   | or drop things when grounded | Q or K   | Button West   |
