@@ -1,11 +1,12 @@
-<!-- [Home](index.md) | [About](about.md) | [Projects](projects.md) -->
+[Home](index.md) | [About](about.md) | [Projects](projects.md) 
 
-
+<!-- 
 <nav>
   <a href="/">Home</a>
   <a href="/About">About</a>
   <a href="/Projects">Projects</a>
 </nav>
+-->
 
 # Interior Lighting
 
