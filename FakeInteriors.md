@@ -1,3 +1,5 @@
+[Home](index.md) | [About](About.md) | [Projects](Projects.md) 
+
 # Interior Lighting
 
 ![Alt text yeah](Interiors/Interior1.png)
