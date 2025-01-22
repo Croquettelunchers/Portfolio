@@ -7,44 +7,69 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 <a href="https://croquettelunchers.github.io/Megan/">
     <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 100px; width: auto">
   </a>
-  
-[give it a spin!](https://croquettelunchers.github.io/Megan/)  
-
-
-<details>
- <summary>Megan Controls: 🔽</summary>
-| Action | info | Keyboard Controls | Controller Controls |
-|---|---|---|---|
-| Movement ||||
-| Jump     |          | Space    | South Button  |
-| Walk     |          | A or D   | Left, Right  |
-| Crouch   |          | S        | Down   |
-| Slide    |          | S + Space   | Down + South Button  |
-| Sprint   |          | Row 1B   | Row 1C   |
-| Cling to walls  | touch a wall while falling | Row 2B   | Row 2C   |
-| Actions ||||
-| shoot charged shots | charged shots only for now, maybe, who knows? | Press and hold Q or K, then release  | Press and hold Button West, then release   |
-| Grab (or rip) | nearby things in front or under her   | Q or K  | Button West  |
-| Throw   | or drop things when grounded | Q or K   | Button West   |
-| Smash held items | press repeatedly to pump up a smash to insane proportions while airborne   | Q or K   | Button West   |
-| Poyo Transform! | Turn her friend Poyo the flying bird into a soccer ball   | O   | R2  |
-| Kick | Kick soccer balls straight, with a curve and dragon-kick 'em in the air   | J   | L1  |
-| Dribble the ball  |reacts to jumps and slides |   |    |
-| Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them  |   |    |
-| Stop hacking | Stop hacking by jumping out   | Space  | Button South   |
-| Switch to V | Change character  | Right Shift  |    |   
-</details>
-
- <br/>
 
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
 
+## Technical features:
+> Here are some of the interresting technical features in the game.
+
+### Pooling
+Megan's trail rendering is composed of pooled objects to avoid the unnecessary CPU burden of repeatedly creating and destroying lots of objects.  
+Here is how I approached the feature:
+1. A Parent Gameobject hosts the trail mimics
+2. A Trail Function sends Events to the Trail Mimics
+3. The system runs on a shared FINISH ME HERE
+
+As long as the Trail Function is present in the desired state of the state machine, the trails will spawn
+
+Monobehaviors, visual script machines in my case, on the Trail Mimics manage the effect 
+
+the effect can easily be restyled by simply changing the effect bloc. 
+
+The objects themselves arent deactivated, to allow direct targetting, their renderer is disabled instead.
+
+
+
+
+[give it a spin!](https://croquettelunchers.github.io/Megan/)  
+
+
+<details>
+  <summary>Megan Controls: 🔽</summary>
+
+| Action | Info | Keyboard Controls | Controller Controls |
+|--------|------|-------------------|---------------------|
+| Movement | | | |
+| Jump | | Space | South Button |
+| Walk | | A or D | Left, Right |
+| Crouch | | S | Down |
+| Slide | | S + Space | Down + South Button |
+| Sprint | | Row 1B | Row 1C |
+| Cling to walls | Touch a wall while falling | Row 2B | Row 2C |
+| Actions | | | |
+| Shoot charged shots | Charged shots only for now, maybe, who knows? | Press and hold Q or K, then release | Press and hold Button West, then release |
+| Grab (or rip) | Nearby things in front or under her | Q or K | Button West |
+| Throw | Or drop things when grounded | Q or K | Button West |
+| Smash held items | Press repeatedly to pump up a smash to insane proportions while airborne | Q or K | Button West |
+| Poyo Transform! | Turn her friend Poyo the flying bird into a soccer ball | O | R2 |
+| Kick | Kick soccer balls straight, with a curve and dragon-kick 'em in the air | J | L1 |
+| Dribble the ball | Reacts to jumps and slides | | |
+| Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them | | |
+| Stop hacking | Stop hacking by jumping out | Space | Button South |
+| Switch to V | Change character | Right Shift | |
+
+</details>
+
+ <br/>
+
 <details>
  <summary>Here are a few notes about the design🔽</summary>
     <br/>
-I'm challenging myself to avoid direct double jumps and walljumps.  
-The Charged Shot is intentionnaly constrained in favor of environmental weaponry, 
+I'm challenging myself to avoid direct double jumps and walljumps.   
+The Charged Shot is intentionnaly constrained in favor of environmental weaponry.  
+There is a lot of feedback on most actions, that is to convey weight and 
+
    
 </details>  
 
@@ -100,7 +125,7 @@ The Charged Shot is intentionnaly constrained in favor of environmental weaponry
 </div>
 </details>  
 
-I even made some music using Ableton
+I made some music using Ableton
  
 <br/>
  
