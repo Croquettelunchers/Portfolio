@@ -10,9 +10,9 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
   
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
-Megan can: 
+
 <details>
- <summary>Show list of controls</summary>
+ <summary>Megan can: 🔽</summary>
     
 | Action | info | Keyboard Controls | Controller Controls |
 |---|---|---|---|
@@ -40,21 +40,52 @@ Aseprite and Pixly were used to create the sprites.
 Most of the code was done using visual scripting in Unity.  
 
 <details>
- <summary>Here are a few notes about the design</summary>
-I'm challenging myself to avoid double jumping and walljumps.
+ <summary>Here are a few notes about the design🔽</summary>
+I'm challenging myself to avoid direct double jumps and walljumps.  
 The Charged Shot is intentionnaly constrained in favor of environmental weaponry, 
-    
- </details>
+</details>
 
-<video controls width="560" style="display: block; margin: 0 auto;">
-  <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4">
-</video>
+
 
 <details>
- <summary>Display Gallery</summary>
+ <summary>Display Gallery🔽</summary>
 <div style="display: flex-wrap: wrap;gap: 10px;">
-    
-
-    </div>
- </details>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganSlides.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganGrabs.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganThrows.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganScandalousSmash.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganScandalousSmash.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganRepeatedJumps.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganRipsAndHacks.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganHardcoreDeathnimation.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganFisticuffs.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganFisticuffRandomness.mp4" type="video/mp4">
+</video>
+    <video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganSoccer.mp4" type="video/mp4">
+</video>
+</div>
+</details>
 
