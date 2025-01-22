@@ -2,7 +2,7 @@
 
 ## Wanna play some Megan, man?
 Megan is a fun little pixelart platformer project that I use to test whatever comes to mind.  
-This was never meant to be a portfolio piece (but here we are). It was designed to quench The Thirst, the thirst for making games.  
+This was never meant to be a portfolio piece (but here we are). It was designed to quench **The Thirst**, the thirst for making games.  
 
 <a href="https://croquettelunchers.github.io/Megan/">
     <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 100px; width: auto">
@@ -33,59 +33,80 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 | Dribble the ball  |reacts to jumps and slides |   |    |
 | Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them  |   |    |
 | Stop hacking | Stop hacking by jumping out   | Space  | Button South   |
-| Switch to V | Change character  | Right Shift  |    |
+| Switch to V | Change character  | Right Shift  |    |   
+
 </details>
 
-Aseprite and Pixly were used to create the sprites.  
-Most of the code was done using visual scripting in Unity.  
+ <br/>
+
+> **Aseprite** and **Pixly** were used to create the sprites.  
+> Most of the code was done using visual scripting in **Unity**.  
 
 <details>
  <summary>Here are a few notes about the design🔽</summary>
+    <br/>
 I'm challenging myself to avoid direct double jumps and walljumps.  
 The Charged Shot is intentionnaly constrained in favor of environmental weaponry, 
-</details>
+   
+</details>  
 
-
+ <br/>
 
 <details>
  <summary>Display Gallery🔽</summary>
 <div style="display: flex-wrap: wrap;gap: 10px;">
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4">
+        Megan Sprints
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSlides.mp4" type="video/mp4">
+        Megan Slides
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganGrabs.mp4" type="video/mp4">
+        Megan Grabs
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganThrows.mp4" type="video/mp4">
+        Megan Throws
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganScandalousSmash.mp4" type="video/mp4">
+        Scandalous Smashes
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
-  <source src="Projects/Megan/MeganScandalousSmash.mp4" type="video/mp4">
-</video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRepeatedJumps.mp4" type="video/mp4">
+        Smash-a-jumping
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRipsAndHacks.mp4" type="video/mp4">
+        Megan Rips and Hacks
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganHardcoreDeathnimation.mp4" type="video/mp4">
+        Megan hardcore death animation
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffs.mp4" type="video/mp4">
+        Megan Fisticuffs
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffRandomness.mp4" type="video/mp4">
+        Megan Fisticuff Randomness
 </video>
-    <video controls width="560" style="display: block; margin: 0 auto;">
+    <video controls width="400" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSoccer.mp4" type="video/mp4">
+        Megan Soccer
 </video>
 </div>
-</details>
+</details>  
 
+I even made some music using Ableton
+
+<audio controls>
+  <source src="Projects/Megan/CharacterSelect.mp3" type="audio/mpeg">
+</audio>
+<audio controls>
+  <source src="Projects/Megan/MegamanCharacterSelectScreen3.wav" type="audio/wav">
+</audio>
