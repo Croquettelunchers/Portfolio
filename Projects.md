@@ -1,5 +1,10 @@
+---
+title: Projects
+layout: default
+---
 # Interior Lighting
 
+Here is a list of my projects.
 <!--
 <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan, The game" width="20%" />
 <img src="Projects/Interiors/Interior1.png" alt="Interiors" width="20%" />
