@@ -36,17 +36,21 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 | Switch to V | Change character  | Right Shift  |    |   
 
 </details>
-> [!IMPORTANT]
+
+ <br/>
+
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
 
 <details>
  <summary>Here are a few notes about the design🔽</summary>
+    <br/>
 I'm challenging myself to avoid direct double jumps and walljumps.  
 The Charged Shot is intentionnaly constrained in favor of environmental weaponry, 
+   
 </details>  
 
-
+ <br/>
 
 <details>
  <summary>Display Gallery🔽</summary>
@@ -101,8 +105,8 @@ The Charged Shot is intentionnaly constrained in favor of environmental weaponry
 I even made some music using Ableton
 
 <audio controls>
-  <source src="Projects/Megan/CharacterSelect.mp4" type="audio/mpeg">
+  <source src="Projects/Megan/CharacterSelect.mp3" type="audio/mpeg">
 </audio>
 <audio controls>
-  <source src="Projects/Megan/MeganCharacterSelectScreen3.wav" type="audio/wav">
+  <source src="Projects/Megan/MegamanCharacterSelectScreen3.wav" type="audio/wav">
 </audio>
