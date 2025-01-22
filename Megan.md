@@ -10,8 +10,11 @@ Most of the code was done using visual scripting in Unity.
 
 
 give it a spin!  
-
-https://croquettelunchers.github.io/Megan/
+<a href="https://croquettelunchers.github.io/Megan/">
+    <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 100px; width: auto">
+  </a>
+  
+[Let me Play Megan!](https://croquettelunchers.github.io/Megan/)
 
 ### Megan can:  
 
