@@ -1,3 +1,5 @@
+[Home](index.md) | [About](About.md) | [Projects](Projects.md) 
+
 # Wanna play some Megan, man?
 Megan is a fun little platformer project that I use to test whatever comes to my mind.  
 Most of the project was done using visual scripting in Unity.
