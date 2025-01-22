@@ -2,10 +2,8 @@
 
 ## Wanna play some Megan, man?
 Megan is a fun little pixelart platformer project that I use to test whatever comes to mind.  
-<a href="https://croquettelunchers.github.io/Megan/">
-    <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 32px; width: auto">
-  </a>
-  It was never intended to be a portfolio piece, but here we are. In fact, I specificaly started this project with the intention of never finishing it  
+<img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 32px; width: auto">
+It was never intended to be a portfolio piece, but here we are. In fact, I specificaly started this project with the intention of never finishing it  
 Aseprite and Pixly were used to create the sprites.  
 Most of the code was done using visual scripting in Unity.  
 
