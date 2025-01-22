@@ -1,3 +1,8 @@
+---
+layout: default
+title: Megan Project
+---
+
 [Home](index.md) | [Projects](Projects.md) 
 
 # Wanna play some Megan, man?
