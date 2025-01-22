@@ -2,7 +2,10 @@
 
 ## Wanna play some Megan, man?
 Megan is a fun little pixelart platformer project that I use to test whatever comes to mind.  
-It was never intended to be a portfolio piece, but here we are.  
+<a href="https://croquettelunchers.github.io/Megan/">
+    <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 32px; width: auto">
+  </a>
+  It was never intended to be a portfolio piece, but here we are. In fact, I specificaly started this project with the intention of never finishing it  
 Aseprite and Pixly were used to create the sprites.  
 Most of the code was done using visual scripting in Unity.  
 
@@ -15,9 +18,10 @@ give it a spin!
   </a>
   
 [Let me Play Megan!](https://croquettelunchers.github.io/Megan/)
-
-### Megan can:  
-
+### Megan can: 
+<details>
+ <summary>Show list of controls</summary>
+    
 | Action | info | Keyboard Controls | Controller Controls |
 |---|---|---|---|
 | Movement ||||
@@ -37,5 +41,5 @@ give it a spin!
 | Dribble the ball  |reacts to jumps and slides |   |    |
 | Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them  |   |    |
 | Stop hacking | Stop hacking by jumping out   | Space  | Button South   |
-
+</details>
 
