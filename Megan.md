@@ -1,7 +1,7 @@
 [Home](index.md) | [Projects](Projects.md) 
 
 ## Wanna play some Megan, man?
-Megan is a fun little pixelart platformer project that I use to test whatever comes to mind. 
+Megan is a fun little pixelart platformer project that I use to test whatever comes to mind.  
 It was never intended to be a portfolio piece, but here we are.  
 Aseprite and Pixly were used to create the sprites.  
 Most of the code was done using visual scripting in Unity.  
