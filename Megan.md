@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Megan Project
+title: Portfolio
 ---
 
 [Home](index.md) | [Projects](Projects.md) 
