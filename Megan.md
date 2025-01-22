@@ -36,9 +36,9 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 | Switch to V | Change character  | Right Shift  |    |   
 
 </details>
-
-**Aseprite** and **Pixly** were used to create the sprites.  
-Most of the code was done using visual scripting in **Unity**.  
+> [!IMPORTANT]
+> **Aseprite** and **Pixly** were used to create the sprites.  
+> Most of the code was done using visual scripting in **Unity**.  
 
 <details>
  <summary>Here are a few notes about the design🔽</summary>
