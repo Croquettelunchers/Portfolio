@@ -41,7 +41,10 @@ the timer is then refreshed every time it completes its cycle.
 
 ### Color Palette conforming: LUT
 to conform with the artistic direction of the project, I'm using the NES palette to get that Megaman retro feel.  
-We can ensure conformity by using a LUT, or Look up table reference.  
+I did so by using a LUT, or Look up table reference.  
+This method provides many benefits: since the LUT is occuring localy (as opposed to globaly using post-processing), it can be left out of some shaders that would never need this, like particles.  
+Colors can be tweened dynamicaly and always be compliant with the artistic direction.  
+
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
 <span style="color: gray;"> a Gameboy LUT Megan next to her NES counterpart.</span>
 
@@ -53,6 +56,8 @@ and this is the texture the UV are being fed to:
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
 <span style="color: gray;"> I will not run over the creation of the texture, but the more subdivisions the more precise the LUT works. Photoshop and Aseprite have the capacity to convert images to Indexed colors, that's the secret of the sauce. </span>  
 mobile games like their textures in neat perfect squares, but this is not one of them.  
+
+
 
 
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
