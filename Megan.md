@@ -8,6 +8,8 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
     <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 100px; width: auto">
   </a>
 
+
+
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
 
@@ -25,21 +27,39 @@ Here is how I approached the feature:
 
 > This is the main trail function, apologies for PascalCase variables in this project
 
+Forming the frequency to send pooling events is this: Trail duration / the total number of trail objects.
+That timespan is fed to a Timer which corresponds to an IEnumerator coroutine in regular C# code, 
+To determine which Trail Mimic to send the event to, I'm using a common modulo of: (The current pooled object +1) % The total amount of pooled objects.
+Update "The current pooled object" variable.
+the timer is then refreshed every time it completes its cycle.
+
 
 - As long as the Trail Function is present in the desired state of the state machine, the trails will spawn  
-    <span style="color: gray;"> Mine is on the root state because I'm a maniac and I should be stopped.</span>
+    <span style="color: gray;"> Mine is on the root state because I should be stopped.</span>
 - the effect can easily be restyled by simply changing the effect bloc. 
 - The objects themselves arent deactivated, to allow direct referencing, their renderer is disabled instead.
 
+### Color Palette conforming: LUT
+to conform with the artistic direction of the project, I'm using the NES palette to get that Megaman retro feel.  
+We can ensure conformity by using a LUT, or Look up table reference.  
+<img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
+<span style="color: gray;"> a Gameboy LUT Megan next to her NES counterpart.</span>
 
-
-
+Since Texture Samplers' UV coordinates can be boiled down to simple gradient information, I use that in Surface Shading to remap the incoming sprites and their color infos into another texture sample as UV, effectively constraining our material to displaying only using a specific palette.
+Now, UVs are Vector2 coordinates and colors are Vector3 so we need to crunch down one of our channels somehow.  
+I chose to collapse the Blue color channel onto the Red one, this is what the proto version looks like:  
+<img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">
+<img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">
+I will not go over the creation of the texture, but the more subdivisions the more precise the LUT works. Photoshop and Aseprite have the capacity to Index colors, that's the secret of the sauce.
+it's important to note that mobile games like their texture in neat perfect squares, but this is not one of them.
 
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
 
 <details>
   <summary>Megan Controls: 🔽</summary>
+
+    
 | Action | Info | Keyboard Controls | Controller Controls |
 |--------|------|-------------------|---------------------|
 | Movement | | | |
@@ -60,6 +80,8 @@ Here is how I approached the feature:
 | Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them | | |
 | Stop hacking | Stop hacking by jumping out | Space | Button South |
 | Switch to V | Change character | Right Shift | |
+
+
 </details>
 
  <br/>
@@ -67,9 +89,10 @@ Here is how I approached the feature:
 <details>
  <summary>Here are a few notes about the design🔽</summary>
     <br/>
-I'm challenging myself to avoid direct double jumps and walljumps.   
-The Charged Shot is intentionnaly constrained in favor of environmental weaponry.  
-There is a lot of feedback on most actions, that is to convey weight and 
+- I'm challenging myself to avoid direct double jumps and walljumps. Please bear with me.    
+- The Charged Shot is intentionnaly constrained in favor of environmental weaponry.  
+- There is a lot of feedback on most actions, landing lag, knockback on the charged shot and punches, are features used to convey weight.
+- grace time when grabbing objects while airborne is a crucial detail to make the feature fun.
 
    
 </details>  
