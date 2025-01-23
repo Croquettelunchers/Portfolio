@@ -19,15 +19,18 @@ Megan's trail rendering is composed of pooled objects to avoid the unnecessary C
 Here is how I approached the feature:
 1. A Parent Gameobject hosts the Trail Mimics
 2. A Trail Function sends Events to the Trail Mimics
+3. The Trail Mimics receive the event and manage how the effect looks and occur 
 
-As long as the Trail Function is present in the desired state of the state machine, the trails will spawn
-> Mine is on the root state because I'm a maniac and I should be stopped.
+<img src="Projects/Megan/TrailFunction.PNG" alt="the trail pool manager" style="height: auto; width: auto">  
 
-Monobehaviors, visual script machines in my case, on the Trail Mimics receive the event and manage how the effect looks and occur 
+> This is the main trail function, apologies for PascalCase variables in this project
 
-the effect can easily be restyled by simply changing the effect bloc. 
 
-The objects themselves arent deactivated, to allow direct referencing, their renderer is disabled instead.
+- As long as the Trail Function is present in the desired state of the state machine, the trails will spawn  
+    <span style="color: gray;"> Mine is on the root state because I'm a maniac and I should be stopped.</span>
+- the effect can easily be restyled by simply changing the effect bloc. 
+- The objects themselves arent deactivated, to allow direct referencing, their renderer is disabled instead.
+
 
 
 
@@ -36,8 +39,7 @@ The objects themselves arent deactivated, to allow direct referencing, their ren
 
 
 <details>
-  <summary>Megan Controls: 🔽</summary>  
-    
+  <summary>Megan Controls: 🔽</summary>
 | Action | Info | Keyboard Controls | Controller Controls |
 |--------|------|-------------------|---------------------|
 | Movement | | | |
@@ -76,48 +78,48 @@ There is a lot of feedback on most actions, that is to convey weight and
 
 <details>
  <summary>Display Gallery🔽</summary>
-<div style="display: flex-wrap: wrap;gap: 10px;">
-    <video controls width="400" style="display: block; margin: 0 auto;">
+<div style="display: flex-wrap: wrap;gap: 20px;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4">
         Megan Sprints
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSlides.mp4" type="video/mp4">
         Megan Slides
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganGrabs.mp4" type="video/mp4">
         Megan Grabs
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganThrows.mp4" type="video/mp4">
         Megan Throws
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganScandalousSmash.mp4" type="video/mp4">
         Scandalous Smashes
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRepeatedJumps.mp4" type="video/mp4">
         Smash-a-jumping
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRipsAndHacks.mp4" type="video/mp4">
         Megan Rips and Hacks
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganHardcoreDeathnimation.mp4" type="video/mp4">
         Megan hardcore death animation
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffs.mp4" type="video/mp4">
         Megan Fisticuffs
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffRandomness.mp4" type="video/mp4">
         Megan Fisticuff Randomness
 </video>
-    <video controls width="400" style="display: block; margin: 0 auto;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSoccer.mp4" type="video/mp4">
         Megan Soccer
 </video>
