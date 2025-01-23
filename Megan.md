@@ -47,11 +47,13 @@ We can ensure conformity by using a LUT, or Look up table reference.
 
 Since Texture Samplers' UV coordinates can be boiled down to simple gradient information, I use that in Surface Shading to remap the incoming sprites and their color infos into another texture sample as UV, effectively constraining our material to displaying only using a specific palette.
 Now, UVs are Vector2 coordinates and colors are Vector3 so we need to crunch down one of our channels somehow.  
-I chose to collapse the Blue color channel onto the Red one, this is what the proto version looks like:  
-<img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">
-<img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">
-I will not go over the creation of the texture, but the more subdivisions the more precise the LUT works. Photoshop and Aseprite have the capacity to Index colors, that's the secret of the sauce.
-it's important to note that mobile games like their texture in neat perfect squares, but this is not one of them.
+I chose to collapse the Blue color channel onto the Red one, this is what the proto version looks like:   
+<img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">  
+and this is the texture the UV are being fed to:  
+<img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
+<span style="color: gray;"> I will not run over the creation of the texture, but the more subdivisions the more precise the LUT works. Photoshop and Aseprite have the capacity to convert images to Indexed colors, that's the secret of the sauce. </span>  
+mobile games like their textures in neat perfect squares, but this is not one of them.  
+
 
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
@@ -59,7 +61,6 @@ it's important to note that mobile games like their texture in neat perfect squa
 <details>
   <summary>Megan Controls: 🔽</summary>
 
-    
 | Action | Info | Keyboard Controls | Controller Controls |
 |--------|------|-------------------|---------------------|
 | Movement | | | |
@@ -81,7 +82,6 @@ it's important to note that mobile games like their texture in neat perfect squa
 | Stop hacking | Stop hacking by jumping out | Space | Button South |
 | Switch to V | Change character | Right Shift | |
 
-
 </details>
 
  <br/>
@@ -89,12 +89,11 @@ it's important to note that mobile games like their texture in neat perfect squa
 <details>
  <summary>Here are a few notes about the design🔽</summary>
     <br/>
-- I'm challenging myself to avoid direct double jumps and walljumps. Please bear with me.    
-- The Charged Shot is intentionnaly constrained in favor of environmental weaponry.  
-- There is a lot of feedback on most actions, landing lag, knockback on the charged shot and punches, are features used to convey weight.
-- grace time when grabbing objects while airborne is a crucial detail to make the feature fun.
+- I'm challenging myself to avoid direct double jumps and walljumps. Please bear with me.<br/>  
+- The Charged Shot is intentionnaly constrained in favor of environmental weaponry.<br/>
+- There is a lot of feedback on most actions, landing lag, knockback on the charged shot and punches, are features used to convey weight.<br/>
+- grace time when grabbing objects while airborne is a crucial detail to make the feature fun.<br/>
 
-   
 </details>  
 
  <br/>
@@ -103,49 +102,49 @@ it's important to note that mobile games like their texture in neat perfect squa
  <summary>Display Gallery🔽</summary>
 <div style="display: flex-wrap: wrap;gap: 20px;">
     <video controls width="580" style="display: block; margin: 0 auto;">
-  <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4">
-        Megan Sprints
+  <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4"> 
 </video>
+Megan Sprints
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSlides.mp4" type="video/mp4">
-        Megan Slides
 </video>
+Megan Slides
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganGrabs.mp4" type="video/mp4">
-        Megan Grabs
 </video>
+Megan Grabs
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganThrows.mp4" type="video/mp4">
-        Megan Throws
 </video>
+Megan Throws
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganScandalousSmash.mp4" type="video/mp4">
-        Scandalous Smashes
 </video>
+Scandalous Smashes
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRepeatedJumps.mp4" type="video/mp4">
-        Smash-a-jumping
 </video>
+Smash-a-jumping
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRipsAndHacks.mp4" type="video/mp4">
-        Megan Rips and Hacks
 </video>
+Megan Rips and Hacks
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganHardcoreDeathnimation.mp4" type="video/mp4">
-        Megan hardcore death animation
 </video>
+Megan hardcore death animation
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffs.mp4" type="video/mp4">
-        Megan Fisticuffs
 </video>
+Megan Fisticuffs
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffRandomness.mp4" type="video/mp4">
-        Megan Fisticuff Randomness
 </video>
+Megan Fisticuff Randomness
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSoccer.mp4" type="video/mp4">
-        Megan Soccer
 </video>
+Megan Soccer
 </div>
 </details>  
 
