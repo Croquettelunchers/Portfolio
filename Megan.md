@@ -12,22 +12,22 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 > Most of the code was done using visual scripting in **Unity**.  
 
 ## Technical features:
-> Here are some of the interresting technical features in the game.
+> Here are some of the interresting features in the game.
 
 ### Pooling
 Megan's trail rendering is composed of pooled objects to avoid the unnecessary CPU burden of repeatedly creating and destroying lots of objects.  
 Here is how I approached the feature:
-1. A Parent Gameobject hosts the trail mimics
+1. A Parent Gameobject hosts the Trail Mimics
 2. A Trail Function sends Events to the Trail Mimics
-3. The system runs on a shared FINISH ME HERE
 
 As long as the Trail Function is present in the desired state of the state machine, the trails will spawn
+> Mine is on the root state because I'm a maniac and I should be stopped.
 
-Monobehaviors, visual script machines in my case, on the Trail Mimics manage the effect 
+Monobehaviors, visual script machines in my case, on the Trail Mimics receive the event and manage how the effect looks and occur 
 
 the effect can easily be restyled by simply changing the effect bloc. 
 
-The objects themselves arent deactivated, to allow direct targetting, their renderer is disabled instead.
+The objects themselves arent deactivated, to allow direct referencing, their renderer is disabled instead.
 
 
 
@@ -36,8 +36,8 @@ The objects themselves arent deactivated, to allow direct targetting, their rend
 
 
 <details>
-  <summary>Megan Controls: 🔽</summary>
-
+  <summary>Megan Controls: 🔽</summary>  
+    
 | Action | Info | Keyboard Controls | Controller Controls |
 |--------|------|-------------------|---------------------|
 | Movement | | | |
@@ -58,7 +58,6 @@ The objects themselves arent deactivated, to allow direct targetting, their rend
 | Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them | | |
 | Stop hacking | Stop hacking by jumping out | Space | Button South |
 | Switch to V | Change character | Right Shift | |
-
 </details>
 
  <br/>
@@ -125,6 +124,8 @@ There is a lot of feedback on most actions, that is to convey weight and
 </div>
 </details>  
 
+<br/>
+ 
 I made some music using Ableton
  
 <br/>
