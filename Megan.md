@@ -19,15 +19,18 @@ Megan's trail rendering is composed of pooled objects to avoid the unnecessary C
 Here is how I approached the feature:
 1. A Parent Gameobject hosts the Trail Mimics
 2. A Trail Function sends Events to the Trail Mimics
+3. The Trail Mimics receive the event and manage how the effect looks and occur 
 
-As long as the Trail Function is present in the desired state of the state machine, the trails will spawn
-> Mine is on the root state because I'm a maniac and I should be stopped.
+<img src="Projects/Megan/TrailFunction.PNG" alt="the trail pool manager" style="height: auto; width: auto">  
 
-Monobehaviors, visual script machines in my case, on the Trail Mimics receive the event and manage how the effect looks and occur 
+> This is the main trail function, apologies for PascalCase variables in this project
 
-the effect can easily be restyled by simply changing the effect bloc. 
 
-The objects themselves arent deactivated, to allow direct referencing, their renderer is disabled instead.
+- As long as the Trail Function is present in the desired state of the state machine, the trails will spawn  
+    <span style="color: gray;"> Mine is on the root state because I'm a maniac and I should be stopped.</span>
+- the effect can easily be restyled by simply changing the effect bloc. 
+- The objects themselves arent deactivated, to allow direct referencing, their renderer is disabled instead.
+
 
 
 
