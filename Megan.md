@@ -39,13 +39,17 @@ the timer is then refreshed every time it completes its cycle.
 - the effect can easily be restyled by simply changing the effect bloc. 
 - The objects themselves arent deactivated, to allow direct referencing, their renderer is disabled instead.
 
+<br/>
+---
+<br/>
+
 ### Color Palette conforming: LUT
 to conform with the artistic direction of the project, I'm using the NES palette to get that Megaman retro feel.  
 I did so by using a LUT, or Look up table reference.  
 This method provides many benefits: since the LUT is occuring localy (as opposed to globaly using post-processing), it can be left out of some shaders that would never need this, like particles.  
 Colors can be tweened dynamicaly and always be compliant with the artistic direction.  
 
-<img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
+<img src="Projects/Megan/GBLUTMeg.PNG" alt="NesLUT" style="height: 100px; width: auto">  
 <span style="color: gray;"> a Gameboy LUT Megan next to her NES counterpart.</span>
 
 Since Texture Samplers' UV coordinates can be boiled down to simple gradient information, I use that in Surface Shading to remap the incoming sprites and their color infos into another texture sample as UV, effectively constraining our material to displaying only using a specific palette.
@@ -54,11 +58,14 @@ I chose to collapse the Blue color channel onto the Red one, this is what the pr
 <img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">  
 and this is the texture the UV are being fed to:  
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
-<span style="color: gray;"> I will not run over the creation of the texture, but the more subdivisions the more precise the LUT works. Photoshop and Aseprite have the capacity to convert images to Indexed colors, that's the secret of the sauce. </span>  
+<span style="color: gray;"> </span>  
+I will not run over the creation of the texture, but the more subdivisions the more precise the LUT works.  
+Photoshop and Aseprite have the capacity to convert images to Indexed colors, that's the secret of the sauce.  
 mobile games like their textures in neat perfect squares, but this is not one of them.  
 
 
-
+<br/>
+<br/>
 
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
