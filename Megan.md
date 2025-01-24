@@ -43,8 +43,8 @@ the timer is then refreshed every time it completes its cycle.
 <br/>
 
 ### Color Palette conforming: LUT
-to conform with the artistic direction of the project, I'm using the NES palette to get that Megaman retro feel.  
-I did so by using a LUT, or Look up table reference.  
+In accordance with the **artistic direction** of the project, I'm using the **NES palette** to get that Megaman retro feel.  
+I did so by using a **LUT**, or Look up table reference.  
 This method provides many benefits: since the LUT is occuring localy (as opposed to globaly using post-processing), it can be left out of some shaders that would never need this, like particles.  
 Colors can be tweened dynamicaly and always be compliant with the artistic direction.  
 
@@ -75,30 +75,13 @@ Visual scripting State machines make coding character behavior a breeze
 
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
-| Action | Info | Keyboard Controls | Controller Controls |
-|--------|------|-------------------|---------------------|
-| Movement | | | |
-| Jump | | Space | South Button |
-| Walk | | A or D | Left, Right |
-| Crouch | | S | Down |
-| Slide | | S + Space | Down + South Button |
-| Sprint | | Row 1B | Row 1C |
-| Cling to walls | Touch a wall while falling | Row 2B | Row 2C |
-| Actions | | | |
-| Shoot charged shots | Charged shots only for now, maybe, who knows? | Press and hold Q or K, then release | Press and hold Button West, then release |
-| Grab (or rip) | Nearby things in front or under her | Q or K | Button West |
-| Throw | Or drop things when grounded | Q or K | Button West |
-| Smash held items | Press repeatedly to pump up a smash to insane proportions while airborne | Q or K | Button West |
-| Poyo Transform! | Turn her friend Poyo the flying bird into a soccer ball | O | R2 |
-| Kick | Kick soccer balls straight, with a curve and dragon-kick 'em in the air | J | L1 |
-| Dribble the ball | Reacts to jumps and slides | | |
-| Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them | | |
-| Stop hacking | Stop hacking by jumping out | Space | Button South |
-| Switch to V | Change character | Right Shift | |
+<br/>
 
 <details>
   <summary>Megan Controls: 🔽</summary>
 
+  <br/>
+
 | Action | Info | Keyboard Controls | Controller Controls |
 |--------|------|-------------------|---------------------|
 | Movement | | | |
@@ -119,6 +102,8 @@ Visual scripting State machines make coding character behavior a breeze
 | Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them | | |
 | Stop hacking | Stop hacking by jumping out | Space | Button South |
 | Switch to V | Change character | Right Shift | |
+
+<br/>
 
 </details>
 
