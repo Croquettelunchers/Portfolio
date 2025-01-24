@@ -9,10 +9,10 @@
 </nav>
 -->
 
-Hi! I'm a lighting and Technical artist.  
+Hi! I'm a **lighting** and **Technical artist**.  
 
 I was rigging models in my basement with my 3D artist college degree and then one day I was swept into the wonderful world of Archviz.  
-I made a lot of buildings, of course, but more importantly I ended up working on shaders, cameras, lighting, VFX, performances, assembling scenes and some tools.
+I made a lot of buildings, of course, but more importantly I ended up working on **shaders**, **cameras**, **lighting**, **VFX**, **performances**, assembling scenes(placing props, making things nice and cozy etc.) and some **tools**.
 
 Then I had the chance to work solo-dev on a few projects
 
