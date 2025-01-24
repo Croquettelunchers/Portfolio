@@ -14,10 +14,9 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 > Most of the code was done using visual scripting in **Unity**.  
 
 ## Technical features:
-> Here are some of the interresting features in the game.
 
 ### Pooling
-Megan's trail rendering is composed of pooled objects to avoid the unnecessary CPU burden of repeatedly creating and destroying lots of objects.  
+Megan's **trail rendering** is composed of pooled objects to avoid the unnecessary **CPU burden** of repeatedly creating and destroying lots of objects.  
 Here is how I approached the feature:
 1. A Parent Gameobject hosts the Trail Mimics
 2. A Trail Function sends Events to the Trail Mimics
@@ -25,11 +24,11 @@ Here is how I approached the feature:
 
 <img src="Projects/Megan/TrailFunction.PNG" alt="the trail pool manager" style="height: auto; width: auto">  
 
-> This is the main trail function, apologies for PascalCase variables in this project
+<span style="color: gray;">This is the main trail function, apologies for PascalCase variables in this project</span>
 
 Forming the frequency to send pooling events is this: Trail duration / the total number of trail objects.
 That timespan is fed to a Timer which corresponds to an IEnumerator coroutine in regular C# code, 
-To determine which Trail Mimic to send the event to, I'm using a common modulo of: (The current pooled object +1) % The total amount of pooled objects.
+To determine which Trail Mimic to send the event to, I'm using a common modulo: (The current pooled object +1) % The total amount of pooled objects.
 Update "The current pooled object" variable.
 the timer is then refreshed every time it completes its cycle.
 
@@ -59,13 +58,18 @@ I chose to collapse the Blue color channel onto the Red one, this is what the pr
 and this is the texture the UV are being fed to:  
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
 <span style="color: gray;"> </span>  
-I will not run over the creation of the texture, but the more subdivisions the more precise the LUT works.  
-Photoshop and Aseprite have the capacity to convert images to Indexed colors, that's the secret of the sauce.  
-mobile games like their textures in neat perfect squares, but this is not one of them.  
+I will not go over the creation of the texture, but the more **subdivisions** the more precise the LUT works.  
+Photoshop and Aseprite have the capacity to convert images to **Indexed colors**, that's the secret of the sauce.  
 
 
 <br/>
 <br/>
+
+###
+
+<br/>
+<br/>
+
 
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
