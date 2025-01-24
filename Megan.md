@@ -26,8 +26,8 @@ Here is how I approached the feature:
 
 <span style="color: gray;">This is the main trail function, apologies for PascalCase variables in this project</span>
 
-Forming the frequency to send pooling events is this: Trail duration / the total number of trail objects.
-That timespan is fed to a Timer which corresponds to an IEnumerator coroutine in regular C# code, 
+Forming the **frequency** to send pooling events is this: Trail duration / the total number of trail objects.
+That timespan is fed to a **Timer** which corresponds to an **IEnumerator coroutine** in regular C# code, 
 To determine which Trail Mimic to send the event to, I'm using a common modulo: (The current pooled object +1) % The total amount of pooled objects.
 Update "The current pooled object" variable.
 the timer is then refreshed every time it completes its cycle.
@@ -80,8 +80,6 @@ Visual scripting State machines make coding character behavior a breeze
 <details>
   <summary>Megan Controls: 🔽</summary>
 
-  <br/>
-
 | Action | Info | Keyboard Controls | Controller Controls |
 |--------|------|-------------------|---------------------|
 | Movement | | | |
@@ -102,8 +100,6 @@ Visual scripting State machines make coding character behavior a breeze
 | Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them | | |
 | Stop hacking | Stop hacking by jumping out | Space | Button South |
 | Switch to V | Change character | Right Shift | |
-
-<br/>
 
 </details>
 
