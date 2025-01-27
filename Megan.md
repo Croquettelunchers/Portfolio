@@ -64,6 +64,7 @@ Photoshop and Aseprite have the capacity to convert images to **Indexed colors**
 
 
 <br/>
+---
 <br/>
 
 ### Megan's Statemachine
@@ -84,23 +85,34 @@ States are commonly composed of 4 parts:
 <img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Useful Functions</span>  
 functions like these help recycle features accross objects and states. ex.: the OneHP function trigger Death upon receiving any amount of damage.  
-Well-made functions dramaticaly speed up the development and testing of features. One of my favourite function is "Play until animation is over" which can be used to automaticaly destroy or deactivate sprite-based animated objects. 
+Well-made functions dramaticaly speed up the development and testing of features. One of my favourite function is "Play until animation is over" which can be used to automaticaly destroy or deactivate sprite-based animated objects. <br/>
+
+<br/>
+---
+<br/>
 
 ### Megan's Animator
 
-Megan's character features **60 animation states** (at the time this was written) ranging from 1 to 12 frames each, which is a admittedly far more than what is reasonnable to expect from an original NES cartridge.  
+Megan's character features **60 animation states** (at the time this was written) ranging from 1 to 12 frames each, which is admittedly far more than what is reasonnable to expect from an original NES cartridge.  
 2 things have helped me manage all of these animations:
-**Animation indexes** and **Blend states**. 
+**Animation Indexes** and **Blend States**. 
 
-<img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
+
+What I call Animation Indexes are states in an animator featuring lots of animations that are (almost) entirely dependent on a single integer to run. The goal is to reduce what other people have dubbed "**animator hell**" that naturaly occurs when an animator is trying to do too much logic. <span style="color: gray;">resulting in an extremely complicated webbed animator.</span>
+
+<img src="Projects/Megan/AnimatorIndex.PNG" alt="StateMachine" style="height: auto; width: auto">  
+<span style="color: gray;">The Smashing Index</span>  
+<br/>
+Animator **Blend states** are meant to handle complex compound movements but they also find their use in sprite handling when animations need to run in a parallel fashion. In the example below, Megan's walk animation won't stumble when charging a shot, shooting or being on cooldown from firing,
+
+<img src="Projects/Megan/AnimatorBlendStates.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Useful Functions</span>  
 
-<img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
+<img src="Projects/Megan/HurtState.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Useful Functions</span>  
-
-
 
 <br/>
+---
 <br/>
 
 
@@ -140,10 +152,15 @@ Megan's character features **60 animation states** (at the time this was written
  <summary>Here are a few notes about the design🔽</summary>
     <br/>
 - I'm challenging myself to avoid direct double jumps and walljumps. Please bear with me.<br/>  
-- The Charged Shot is intentionnaly constrained in favor of environmental weaponry.<br/>
-- There is a lot of feedback on most actions, landing lag, knockback on the charged shot and punches, are features used to convey weight.<br/>
-- grace time when grabbing objects while airborne is a crucial detail to make the feature fun.<br/>
-
+- The Charged Shot is intentionnaly constrained in favor of environmental weaponry.<br/>  
+- There is a lot of feedback on most actions; landing lag, knockback on the charged shot and punches, are features used to convey **weight**.<br/>
+- **grace time** when grabbing objects while airborne is a crucial detail to make the feature fun.<br/>
+    <br/>
+I'm also trying to follow MetalWarriors or DeadSpace's **no UI** philosophy and convey as much as possible through In-game elements:<br/>
+- When Megan goes on cooldown from firing, 3 puffs appear, this is actualy timing for the next available shot<br/>  
+- Megan's hurt animation changes according to how many hit points she has left. <span style="color: gray;">Drawing inspiration from Symphony of the night</span> <br/> 
+- Megan leaks smoke according to how many hit points she has left.<br/> 
+- Megan starts Sparking up when she's down to her last hit point.<br/> 
 </details>  
 
  <br/>
