@@ -104,9 +104,9 @@ Megan's character features **60 animation states** (at the time this was written
 
 
 What I call Animation Indexes are states in an animator featuring lots of animations that are (almost) entirely dependent on a single integer to run. The goal is to reduce what other people have dubbed "**animator hell**" that naturaly occurs when an animator is trying to do too much logic. <span style="color: gray;">resulting in an extremely complicated webbed animator.</span>
-
+<br/>
 <img src="Projects/Megan/AnimatorIndex.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<span style="color: gray;">The Smashing Index</span>  
+<span style="color: gray;">The Smashing Index and its state</span>  
 <br/>
 Animator **Blend states** are meant to handle complex compound movements but they also find their use in sprite handling when animations need to run in a parallel fashion. In the example below, Megan's walk animation won't stumble (or reset) when charging a shot, shooting or being on cooldown from firing,
 
@@ -127,6 +127,8 @@ Animator **Blend states** are meant to handle complex compound movements but the
 
 <details>
   <summary>Megan Controls: 🔽</summary>
+
+
 
   <!-- Add a blank line after the <summary> and before the table -->
 
