@@ -1,14 +1,14 @@
 [Home](index.md) | [Projects](Projects.md) 
 
 ## Wanna play some Megan, man?
-Megan is a fun little pixelart platformer project that I use to test whatever comes to mind.  
+Megan is a fun little pixel art platformer project that I use to test whatever comes to mind.  
 This was never meant to be a portfolio piece (but here we are). It was designed to quench **The Thirst**, the thirst for making games.  
 
 <a href="https://croquettelunchers.github.io/Megan/">
     <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 100px; width: auto">
   </a>
 
-
+[give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
@@ -27,7 +27,7 @@ Here is how I approached the feature:
 <span style="color: gray;">This is the main trail function, apologies for PascalCase variables in this project</span>
 
 Forming the **frequency** to send pooling events is this: Trail duration / the total number of trail objects.
-That timespan is fed to a **Timer** which corresponds to an **IEnumerator coroutine** in regular C# code, 
+That timespan is fed to a **Timer** which corresponds to an **IEnumerator coroutine** in regular C# code. 
 To determine which Trail Mimic to send the event to, I'm using a common modulo: (The current pooled object +1) % The total amount of pooled objects.
 Update "The current pooled object" variable.
 the timer is then refreshed every time it completes its cycle.
@@ -59,7 +59,7 @@ and this is the texture the UV are being fed to:
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
 <span style="color: gray;">an excessively more precise version of it is used, when needed</span>  
 
-I will not go over the creation of the texture, but the more **subdivisions** the more precise the LUT works.  
+the more **subdivisions** the more precise the LUT works.  
 Photoshop and Aseprite have the capacity to convert images to **Indexed colors**, that's the secret of the sauce.  
 
 
@@ -76,12 +76,14 @@ States are commonly composed of 4 parts:
 3. Animation branch; sending signals to the animator.
 4. a Function repository, these are common functions that are "true" or used in this state. ex.: The walk function is present in the "holding things" state.
 
+For good fluidity, it's important to leave as much code as possible outside of the Update loop and to trigger things as directly and contextualy as possible. To do so, many informations (or checks) get encapsulated into variables, such as what Megan is stepping on and if she is currently grounded. Once turned into functions, I also limit when these checks occur.
+
 <img src="Projects/Megan/StateMachine1.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Megan's core state machine</span> 
-
+<br/>
 <img src="Projects/Megan/StateMachine2.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Megan's main state function repository</span>  
-
+<br/>
 <img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Useful Functions</span>  
 functions like these help recycle features accross objects and states. ex.: the OneHP function trigger Death upon receiving any amount of damage.  
@@ -156,7 +158,7 @@ Animator **Blend states** are meant to handle complex compound movements but the
 - There is a lot of feedback on most actions; landing lag, knockback on the charged shot and punches, are features used to convey **weight**.<br/>
 - **grace time** when grabbing objects while airborne is a crucial detail to make the feature fun.<br/>
     <br/>
-I'm also trying to follow MetalWarriors or DeadSpace's **no UI** philosophy and convey as much as possible through In-game elements:<br/>
+I'm also trying to follow MetalWarriors or DeadSpace's no UI philosophy and convey as much as possible through In-game elements:<br/>
 - When Megan goes on cooldown from firing, 3 puffs appear, this is actualy timing for the next available shot<br/>  
 - Megan's hurt animation changes according to how many hit points she has left. <span style="color: gray;">Drawing inspiration from Symphony of the night</span> <br/> 
 - Megan leaks smoke according to how many hit points she has left.<br/> 
