@@ -51,7 +51,7 @@ Colors can be tweened dynamicaly and always be compliant with the artistic direc
 <img src="Projects/Megan/GBLUTMeg.PNG" alt="NesLUT" style="height: 100px; width: auto">  
 <span style="color: gray;"> a Gameboy LUT Megan next to her NES counterpart.</span>
 
-Since Texture Samplers' UV coordinates can be boiled down to simple gradient information, I use that in Surface Shading to remap the incoming sprites and their color infos into another texture sample as UV, effectively constraining our material to displaying only using a specific palette.
+Since Texture Samplers' UV coordinates can be boiled down to simple gradient information, I use that in Surface Shading to remap the incoming sprites and their color infos into another texture sample as UV, effectively constraining our material to displaying only using a specific palette.  
 Now, UVs are **Vector2 coordinates** and colors are Vector3 so we need to crunch down one of our channels somehow.  
 I chose to collapse the Blue color channel onto the Red one, this is what the proto version looks like:   
 <img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">  
