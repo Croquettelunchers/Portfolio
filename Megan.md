@@ -57,7 +57,8 @@ I chose to collapse the Blue color channel onto the Red one, this is what the pr
 <img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">  
 and this is the texture the UV are being fed to:  
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
-<span style="color: gray;"> </span>  
+<span style="color: gray;">an excessively more precise version of it is used, when needed</span>  
+
 I will not go over the creation of the texture, but the more **subdivisions** the more precise the LUT works.  
 Photoshop and Aseprite have the capacity to convert images to **Indexed colors**, that's the secret of the sauce.  
 
@@ -67,7 +68,37 @@ Photoshop and Aseprite have the capacity to convert images to **Indexed colors**
 
 ### Megan's Statemachine
 
-Visual scripting State machines make coding character behavior a breeze 
+Visual scripting State machines make coding character behavior a breeze.  
+States are commonly composed of 4 parts:  
+1. Inputs; which controls or conditions are being checked for in current state.
+2. Logic nodes; determining what to do with them.
+3. Animation branch; sending signals to the animator.
+4. a Function repository, these are common functions that are "true" or used in this state. ex.: The walk function is present in the "holding things" state.
+
+<img src="Projects/Megan/StateMachine1.PNG" alt="StateMachine" style="height: auto; width: auto">  
+<span style="color: gray;">Megan's core state machine</span> 
+
+<img src="Projects/Megan/StateMachine2.PNG" alt="StateMachine" style="height: auto; width: auto">  
+<span style="color: gray;">Megan's main state function repository</span>  
+
+<img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
+<span style="color: gray;">Useful Functions</span>  
+functions like these help recycle features accross objects and states. ex.: the OneHP function trigger Death upon receiving any amount of damage.  
+Well-made functions dramaticaly speed up the development and testing of features. One of my favourite function is "Play until animation is over" which can be used to automaticaly destroy or deactivate sprite-based animated objects. 
+
+### Megan's Animator
+
+Megan's character features **60 animation states** (at the time this was written) ranging from 1 to 12 frames each, which is a admittedly far more than what is reasonnable to expect from an original NES cartridge.  
+2 things have helped me manage all of these animations:
+**Animation indexes** and **Blend states**. 
+
+<img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
+<span style="color: gray;">Useful Functions</span>  
+
+<img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
+<span style="color: gray;">Useful Functions</span>  
+
+
 
 <br/>
 <br/>
