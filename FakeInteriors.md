@@ -8,8 +8,10 @@
 Interior shaders, also called fake interiors are a rendering technique using multiple parallaxed UV coordinates to simulate depth.
 this particular shader also features **atlassed textures**; all of the different interiors are compacted on a single interchangeable "collection" texture of variable size. The curtains are featured on a separate collection. Both of these allow us to adapt to different architectural styles.
 
-I call them UV-based interiors, the distinction is important because they become much more functionnal if their projection coordinates aren't raw world-space passed as UV, like Triplanar functions do. These need to react to the world *localy* and *by-surface*.  
-We achieve this by using the right projection matrix: **WorldToTangent** and multiplying it with our **WorldPosition**, then we divide this with fractionnal parts (**frac**) of our **Vertex Coordinates**, all that's left at this point is to **DDX() DDY()** the previous result. <span style="color: gray;">these functions are Derivatives, I've never had college maths so I'm not gonna pretend like I know how it works under the hood</span> DDX and DDY effectively compare the variations between neighboring pixels and if done right, ultimately provide us with fully turnable and rotatable surfaces.  
+I call them UV-based interiors, the distinction is important because they become much more functionnal if their projection coordinates aren't raw world-space passed as UV, like Triplanar functions do. These need to react to the world *localy* and *by-surface*. 
+
+
+We achieve this by using the right projection matrix: **WorldToTangent** and multiplying it with our **WorldPosition**, then we divide this with fractionnal parts (**frac**) of our **Vertex Coordinates**, all that's left at this point is to **DDX() DDY()** the previous result. <span style="color: gray;">these functions are derivatives, I've never had college maths so I'm not gonna pretend like I know how it works under the hood</span> DDX and DDY effectively compare the variations between neighboring pixels and if done right, ultimately provide us with fully turnable and rotatable surfaces.  
 
 <br/>
 
@@ -40,6 +42,8 @@ so I used one of these mathematical functions: ceil, floor, trunc or round with 
 
 <img src="Projects/InteriorShader/InteriorShader.gif" alt="BuildingCapture" style="height: auto; width: auto">  
 <span style="color: gray;"></span>  
+
+Here's a more in-depth rundown of what the shader can do:
 
 <br/>
 <video controls width="560" style="display: block; margin: 0 auto;">
