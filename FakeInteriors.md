@@ -1,5 +1,10 @@
 [Home](index.md) | [Projects](Projects.md) 
 
+<img src="Projects/InteriorShader/BuildingCapture.jpg" alt="BuildingCapture" style="height: auto; width: auto">  
+<span style="color: gray;">The effect needs to be convincing at all hours</span>  
+
+<br/>
+
 # Interior Shader
 
 > Per NDA, I cannot show you the code of this shader. It was prototyped using **Amplify Shader** and then rewritten in **HLSL** with some adaptations for real-time global illumination (à-la Lumen).
@@ -20,10 +25,7 @@ We achieve this by using the right projection matrix: **WorldToTangent** and mul
 
 <br/>
 
-<img src="Projects/InteriorShader/BuildingCapture.jpg" alt="BuildingCapture" style="height: auto; width: auto">  
-<span style="color: gray;">The effect needs to be convincing at all hours</span>  
 
-<br/>
 
 Notice that the appartments on the extremities of the building are see-through, this is achieved using reserved udims 
 
@@ -40,7 +42,7 @@ so I used one of these mathematical functions: ceil, floor, trunc or round with 
 
 <br/>
 
-<img src="Projects/InteriorShader/InteriorShader.gif" alt="BuildingCapture" style="height: auto; width: auto">  
+<img src="Projects/InteriorShader/InteriorShader.gif" alt="BuildingCapture" style="height: 260px; width: 400px">  
 <span style="color: gray;"></span>  
 
 Here's a more in-depth rundown of what the shader can do:
