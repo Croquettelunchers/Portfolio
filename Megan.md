@@ -1,14 +1,14 @@
 [Home](index.md) | [Projects](Projects.md) 
 
 ## Wanna play some Megan, man?
-Megan is a fun little pixelart platformer project that I use to test whatever comes to mind.  
+Megan is a fun little pixel art platformer project that I use to test whatever comes to mind.  
 This was never meant to be a portfolio piece (but here we are). It was designed to quench **The Thirst**, the thirst for making games.  
 
 <a href="https://croquettelunchers.github.io/Megan/">
     <img src="Projects/Megan/Megan1.PNG" alt="Megan video game project" style="height: 100px; width: auto">
   </a>
 
-
+[give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
@@ -26,17 +26,17 @@ Here is how I approached the feature:
 
 <span style="color: gray;">This is the main trail function, apologies for PascalCase variables in this project</span>
 
-Forming the **frequency** to send pooling events is this: Trail duration / the total number of trail objects.
-That timespan is fed to a **Timer** which corresponds to an **IEnumerator coroutine** in regular C# code, 
-To determine which Trail Mimic to send the event to, I'm using a common modulo: (The current pooled object +1) % The total amount of pooled objects.
-Update "The current pooled object" variable.
-the timer is then refreshed every time it completes its cycle.
+Forming the **frequency** to send pooling events is this: Trail duration / the total number of trail objects.  
+That timespan is fed to a **Timer** which corresponds to an **IEnumerator coroutine** in regular C# code.   
+To determine which Trail Mimic to send the event to, I'm using a common **modulo**: (The current pooled object +1) % The total amount of pooled objects.  
+Update "The current pooled object" variable.   
+the timer is then refreshed every time it completes its cycle.  
 
 
 - As long as the Trail Function is present in the desired state of the state machine, the trails will spawn  
     <span style="color: gray;"> Mine is on the root state because I should be stopped.</span>
-- the effect can easily be restyled by simply changing the effect bloc. 
-- The objects themselves arent deactivated, to allow direct referencing, their renderer is disabled instead.
+- the effect can easily be **restyled** by simply changing the effect bloc. 
+- The objects themselves arent deactivated or destroyed, to allow **direct referencing** their renderer is **disabled** instead.
 
 <br/>
 ---
@@ -51,16 +51,19 @@ Colors can be tweened dynamicaly and always be compliant with the artistic direc
 <img src="Projects/Megan/GBLUTMeg.PNG" alt="NesLUT" style="height: 100px; width: auto">  
 <span style="color: gray;"> a Gameboy LUT Megan next to her NES counterpart.</span>
 
-Since Texture Samplers' UV coordinates can be boiled down to simple gradient information, I use that in Surface Shading to remap the incoming sprites and their color infos into another texture sample as UV, effectively constraining our material to displaying only using a specific palette.
-Now, UVs are Vector2 coordinates and colors are Vector3 so we need to crunch down one of our channels somehow.  
+Since Texture Samplers' UV coordinates can be boiled down to simple gradient information, I use that in Surface Shading to remap the incoming sprites and their color infos into another texture sample as UV, effectively constraining our material to displaying only using a specific palette.  
+Now, UVs are **Vector2 coordinates** and colors are Vector3 so we need to crunch down one of our channels somehow.  
 I chose to collapse the Blue color channel onto the Red one, this is what the proto version looks like:   
 <img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">  
 and this is the texture the UV are being fed to:  
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
 <span style="color: gray;">an excessively more precise version of it is used, when needed</span>  
 
-I will not go over the creation of the texture, but the more **subdivisions** the more precise the LUT works.  
+the more **subdivisions** the more precise the LUT works.  
 Photoshop and Aseprite have the capacity to convert images to **Indexed colors**, that's the secret of the sauce.  
+
+LUTs applied this way are **lossy**, meaning they apply an explicit destruction of information rendering this method much less desirable in a high-fidelity, AAA production context.
+
 
 
 <br/>
@@ -76,12 +79,14 @@ States are commonly composed of 4 parts:
 3. Animation branch; sending signals to the animator.
 4. a Function repository, these are common functions that are "true" or used in this state. ex.: The walk function is present in the "holding things" state.
 
+For good fluidity, it's important to leave as much code as possible outside of the Update loop and to trigger things as directly and contextualy as possible. To do so, many informations (or checks) get encapsulated into variables, such as what Megan is stepping on and if she is currently grounded. Once these checks are turned into functions, I can also restrict when they occur.
+
 <img src="Projects/Megan/StateMachine1.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Megan's core state machine</span> 
-
+<br/>
 <img src="Projects/Megan/StateMachine2.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Megan's main state function repository</span>  
-
+<br/>
 <img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Useful Functions</span>  
 functions like these help recycle features accross objects and states. ex.: the OneHP function trigger Death upon receiving any amount of damage.  
@@ -99,17 +104,17 @@ Megan's character features **60 animation states** (at the time this was written
 
 
 What I call Animation Indexes are states in an animator featuring lots of animations that are (almost) entirely dependent on a single integer to run. The goal is to reduce what other people have dubbed "**animator hell**" that naturaly occurs when an animator is trying to do too much logic. <span style="color: gray;">resulting in an extremely complicated webbed animator.</span>
-
-<img src="Projects/Megan/AnimatorIndex.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<span style="color: gray;">The Smashing Index</span>  
 <br/>
-Animator **Blend states** are meant to handle complex compound movements but they also find their use in sprite handling when animations need to run in a parallel fashion. In the example below, Megan's walk animation won't stumble when charging a shot, shooting or being on cooldown from firing,
+<img src="Projects/Megan/AnimatorIndex.PNG" alt="StateMachine" style="height: auto; width: auto">  
+<span style="color: gray;">The Smashing Index and its state</span>  
+<br/>
+Animator **Blend states** are meant to handle complex compound movements but they also find their use in sprite handling when animations need to run in a parallel fashion. In the example below, Megan's walk animation won't stumble (or reset) when charging a shot, shooting or being on cooldown from firing,
 
 <img src="Projects/Megan/AnimatorBlendStates.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<span style="color: gray;">Useful Functions</span>  
+<span style="color: gray;">walk cycles</span>  
 
 <img src="Projects/Megan/HurtState.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<span style="color: gray;">Useful Functions</span>  
+<span style="color: gray;">Other uses for blend states</span>  
 
 <br/>
 ---
@@ -122,6 +127,11 @@ Animator **Blend states** are meant to handle complex compound movements but the
 
 <details>
   <summary>Megan Controls: 🔽</summary>
+
+
+<br/>
+  <!-- Add a blank line after the <summary> and before the table -->
+<br/>
 
 | Action | Info | Keyboard Controls | Controller Controls |
 |--------|------|-------------------|---------------------|
