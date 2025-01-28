@@ -1,9 +1,7 @@
 [Home](index.md) | [Projects](Projects.md) 
 
-<img src="Projects/InteriorShader/BuildingCapture.jpg" alt="BuildingCapture" style="height: auto; width: auto">  
-<span style="color: gray;">The effect needs to be convincing at all hours</span>  
-
-<br/>
+<img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="BuildingCapture" style="height: auto; width: auto">  
+<span style="color: gray;"></span>  
 
 # Interior Shader
 
@@ -25,12 +23,12 @@ We achieve this by using the right projection matrix: **WorldToTangent** and mul
 
 <br/>
 
+<img src="Projects/InteriorShader/BuildingCapture.jpg" alt="BuildingCapture" style="height: auto; width: auto">  
+<span style="color: gray;">The effect needs to be convincing at all hours</span>  
 
+<br/>
 
 Notice that the appartments on the extremities of the building are see-through, this is achieved using reserved udims 
-
-<img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="BuildingCapture" style="height: auto; width: auto">  
-<span style="color: gray;"></span>  
 
 <br/>
 
