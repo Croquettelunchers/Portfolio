@@ -6,6 +6,14 @@ For this project I was awoken from my slumber to snow up the entire project.
 
 >This is a **Unity real-time Archviz** simulation.
 
+</br>
+
+<video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/Tremblant/PortfolioTremblant.mp4" type="video/mp4">
+</video>
+<span style="color: gray;"></span>  
+
+
 Here is how I approached this:  
 - The whole system is triggered by a single **Global shader property**  
 - It all operates at **surface shading** level.  
@@ -20,16 +28,13 @@ I planned what needed to be done and how but I did not personnaly execute this p
 
 fun fact about inspecting performances on this project is that we struggled finding why we were CPU-bound causing odd little lag spikes rippling out to GPU before realizing it was our own FPS Cap: "Application.targetFrameRate = *whatever*"
 
-</br>
 
-<video controls width="560" style="display: block; margin: 0 auto;">
-  <source src="Projects/Tremblant/PortfolioTremblant.mp4" type="video/mp4">
-</video>
-<span style="color: gray;"></span>  
 
 </br>
+
 It's snowing despite not being quite cloudy enough for it, I can't remember who asked for this.   
 The snow particles's spawner forms a box around the camera, just big enough so that if you move the camera around we don't lose the effect. It's nothing fancy. Performances were good enough that we could let them stick around a little bit on surfaces before letting them melt away.  
+
 </br>
 
 <video controls width="560" style="display: block; margin: 0 auto;">
