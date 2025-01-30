@@ -55,7 +55,7 @@ These are the actual sunsets and sunrise positions for both summer and winter at
 
 Notice in the following video how some surfaces get disconnected (right above the gizmo's green arrow) from the rest of the object while the displacement occurs. This is because assets need to be prepared with contiguous normals (or a proxy map of this) in order for snow accumulation to reach its full potential.  
 
-video controls width="560" style="display: block; margin: 0 auto;">
+<video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/Tremblant/Snow.mp4" type="video/mp4">
 </video>
 <span style="color: gray;"></span>  
