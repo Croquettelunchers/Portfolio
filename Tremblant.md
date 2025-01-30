@@ -32,7 +32,7 @@ fun fact about inspecting performances on this project is that we struggled find
 
 <br/>
 
-The snow particles's spawner forms a box around the camera, just big enough so that if you move the camera around we don't lose the effect. It's nothing fancy. Performances were good enough that we could enable collisions, letting them stick around a little bit on surfaces before fading away.  
+The snow particles's spawner forms a box around the camera, just big enough that if you move the camera around we don't lose the effect. It's nothing fancy. Performances were good enough that we could enable collisions, letting them stick around a little bit on surfaces before fading away.  
 
 <br/>
 
