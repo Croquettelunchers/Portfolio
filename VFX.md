@@ -20,13 +20,13 @@ So, combining multiple rudimentary shapes: Quads, Circles, Hexes, Squares and Tr
 Typicaly, clients like these better though:
 
 <video controls width="560" style="display: block; margin: 0 auto;">
-  <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
+  <source src="Projects/VFX/LozengePin2.mp4" type="video/mp4">
 </video>
  <span style="color: gray;">Elegant, simple, chef's kiss</span>
 
 <br/>
 <video controls width="560" style="display: block; margin: 0 auto;">
-  <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
+  <source src="Projects/VFX/HexPin.mp4" type="video/mp4">
 </video>
  <span style="color: gray;">I can do this all day, but I don't have to! it only takes 15 minutes to pop one of these bad boys</span>
 
