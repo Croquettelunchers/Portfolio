@@ -26,21 +26,20 @@ Here is how I approached this:
 Sky colors as well as sunset and sunrise positions were adapted to the reduced daytime that happens during Quebec winters.  
  <span style="color: gray;">I planned what needed to be done and how but I did not personnaly execute this part. </span>
 
-fun fact about inspecting performances on this project is that we struggled finding why we were CPU-bound causing odd little lag spikes rippling out to GPU before realizing it was our own FPS Cap: "Application.targetFrameRate = *x*"
+fun fact about inspecting performances on this project is that we struggled finding why we were CPU-bound causing odd regular little lag spikes rippling out to GPU before realizing it was our own FPS Cap: "Application.targetFrameRate = *x*"
 
 
 
 <br/>
 
-It's snowing despite not being quite cloudy enough for it, I can't remember who asked for this.   
-The snow particles's spawner forms a box around the camera, just big enough so that if you move the camera around we don't lose the effect. It's nothing fancy. Performances were good enough that we could let them stick around a little bit on surfaces before letting them melt away.  
+The snow particles's spawner forms a box around the camera, just big enough so that if you move the camera around we don't lose the effect. It's nothing fancy. Performances were good enough that we could enable collisions, letting them stick around a little bit on surfaces before fading away.  
 
 <br/>
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/Tremblant/PortfolioTremblant2.mp4" type="video/mp4">
 </video>
-<span style="color: gray;"></span>  
+<span style="color: gray;">It's snowing despite not being quite cloudy enough for it, I can't remember who asked for this.</span>  
 
 <br/>
 
