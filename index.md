@@ -16,14 +16,13 @@ I made a lot of buildings, of course, but more importantly I ended up working on
 
 Then I had the chance to work solo-dev on a few projects.  
 That required me to learn how to fix a lot of software and hardware related issues like:
-- preventing laptops from overheating,
-- building apps for VR,
-- compensating for fisheye lens chromatic aberation,
-- Windows 11 losing midi inputs,
-- My favorite: Finding out an external USB numpad is sending alphanumerical signals. 
+- preventing laptops from overheating,  
+- building apps for VR,  
+- compensating for fisheye lens chromatic aberation,  
+- Windows 11 losing midi inputs,  
+- My favorite: Finding out an external USB numpad is sending alphanumerical signals.  
 
-</br>
-I'm very excitable about a few things:  </br>
+I'm very excitable about a few things:  
 - working in game engines, any in-engine job.  
 - stylization, or look-dev.   
 - tasks that make me say "ah!, it's working!"   
