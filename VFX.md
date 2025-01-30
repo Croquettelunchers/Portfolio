@@ -1,14 +1,31 @@
 [Home](index.md) | [Projects](Projects.md) 
 
-Every once in a blue moon a client hits you with some Cyberpunk-grade "experience" design.  
+>This a **Unity amplify shader** VFX minikit with some 3d models 
+
+Every once in a blue moon a client hits you with some Cyberpunk-grade "this is an experience" design.  
 These, are, **AWESOME**.
 
-Let's jump right into it:
-Using photoshop to subdivide a circle into equidistant lines of equal lenght gave me an idea: what if I used Vertex Color on torusses to do exactly that?   
+<br/>
+ <span style="color: gray;">Using photoshop to subdivide a circle into equidistant lines of equal lenght gave me an idea: what if I used Vertex Color on torusses to do exactly that? </span>
+  
 
-So, combining multiple rudimentary shapes: Quads, Circles, Hexes, Squares and Triangles, you can quickly produce a variety of dynamic <span style="color: gray;"> albeit gaudy </span> UI pins and gizmos. 
+So, combining multiple rudimentary shapes: Quads, Circles, Hexes, Squares and Triangles, you can quickly produce a variety of dynamic UI pins and gizmos. 
+
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
 </video>
  <span style="color: gray;">Fire some missiles!</span>
+
+Typicaly, clients like these better though:
+
+<video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
+</video>
+ <span style="color: gray;">Elegant, simple, chef's kiss</span>
+
+
+<video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
+</video>
+ <span style="color: gray;">I can do this all day, but I don't have to! it only takes 15 minutes to pop one of these bad boys</span>
