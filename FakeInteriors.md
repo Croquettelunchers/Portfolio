@@ -6,6 +6,7 @@
 # Interior Shader
 
 > Per NDA, I cannot show you the code of this shader. It was prototyped using **Amplify Shader** and then rewritten in **HLSL** with some adaptations for real-time global illumination (à-la Lumen).
+> The feature is usualy complemented by an automated mapping tool spreading UV into select **udims**
 
 
 Interior shaders, also called fake interiors are a rendering technique using multiple parallaxed UV coordinates to simulate depth.
