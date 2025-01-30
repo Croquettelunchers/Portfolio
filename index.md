@@ -20,7 +20,7 @@ That required me to learn how to fix a lot of software and hardware related issu
 - building apps for VR,
 - compensating for fisheye lens chromatic aberation,
 - Windows 11 losing midi inputs,
-- My favorite: An external USB numpad sending alphanumerical signals. 
+- My favorite: Finding out an external USB numpad is sending alphanumerical signals. 
 
 </br>
 I'm very excitable about a few things:  </br>
