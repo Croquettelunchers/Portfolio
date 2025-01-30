@@ -29,3 +29,9 @@ Typicaly, clients like these better though:
   <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
 </video>
  <span style="color: gray;">I can do this all day, but I don't have to! it only takes 15 minutes to pop one of these bad boys</span>
+
+There's often quite a fuss over world-space UI elements about whether or not to render them on top of the rest of the Geometry. 
+Depending on how crowded the visuals are, I tend to lean towards partial fading.
+
+<img src="Projects/VFX/RenderOnTop.gif" alt="renderquirk" style="height: 280px; width: auto">  
+<span style="color: gray;"></span>
