@@ -58,6 +58,6 @@ Notice in the following video how some surfaces get disconnected (right above th
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/Tremblant/Snow.mp4" type="video/mp4">
 </video>
-<span style="color: gray;"></span>  
+<span style="color: gray;">Proto-Snow, not final version</span>  
 
 <br/>
