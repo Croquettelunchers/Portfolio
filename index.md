@@ -27,4 +27,8 @@ I'm very excitable about a few things:
 - stylization, or look-dev.   
 - tasks that make me say "ah!, it's working!"
 
-- Take me to the cool stuff!
+<a href="https://croquettelunchers.github.io/Projects/">
+    <img src="Projects/Megan/Shaman.GIF" alt="SHOWME" style="height: 100px; width: auto">
+  </a>
+
+[give it a spin!](https://croquettelunchers.github.io/Projects/)  
