@@ -4,10 +4,14 @@
 
 The Tentaconte projects that I was charged with were live-entertainment events aimed at young audiences (between 5 to 12).  
 A storyteller rallies up the crowd inside a blow-up hemispherical tent on which an interractive projection is displayed.  
-The storyteller can practice using a VR training version of the project.  
+
+<img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
 
 > These are **Unity** pseudo-2D interractive movies.  
-> A bit of **Blender** modeling-from-images was involved
+> A bit of **Blender** modeling-from-images was involved  
+> Storyteller training is achieved using a **VR** version of the project on the **Occulus**.
 
 ### Technology
 
@@ -70,11 +74,24 @@ Cubemap rendering has a known weakness; screenspace effects like particles's bui
 <span style="color: gray;"></span>  
 
 
-Here is how I approached this:  
-- The whole system is triggered by a single **Global shader property**  
-- It all operates at **surface shading** level.  
-- The structure of all the project's shaders follow this pattern:  
-<img src="Projects/Tremblant/StructureofSnowup.PNG" alt="Structure" style="height: auto; width: auto">  
+<img src="Projects/TheTentaconte/SoundSignals.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
+
+<img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
+<img src="Projects/TheTentaconte/FireListEvents.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
+<img src="Projects/TheTentaconte/Embolden.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
+<img src="Projects/TheTentaconte/AveragedBlur.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
+<img src="Projects/TheTentaconte/SortRenderOrder.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
+
 
 <br/>
