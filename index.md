@@ -28,7 +28,7 @@ I'm very excitable about a few things:
 - tasks that make me say "ah!, it's working!"
 
 <a href="https://croquettelunchers.github.io/Projects/">
-    <img src="Projects/Megan/Shaman.GIF" alt="SHOWME" style="height: 100px; width: auto">
+    <img src="Projects/Megan/Shaman.gif" alt="SHOWME" style="height: 100px; width: auto">
   </a>
 
 [give it a spin!](https://croquettelunchers.github.io/Projects/)  
