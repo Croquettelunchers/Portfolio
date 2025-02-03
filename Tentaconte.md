@@ -4,6 +4,7 @@
 
 The Tentaconte projects that I was charged with were live-entertainment events aimed at young audiences (between 5 to 12).  
 A storyteller rallies up the crowd inside a blow-up hemispherical tent on which an interractive projection is displayed.  
+My job was to take the visuals and storyboard provided and put it all together, animate, rig, code, you name it!  
 
 <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
@@ -11,7 +12,7 @@ A storyteller rallies up the crowd inside a blow-up hemispherical tent on which 
 
 > These are **Unity** pseudo-2D interractive movies.  
 > A bit of **Blender** modeling-from-images was involved  
-> Storyteller training is achieved using a **VR** version of the project on the **Occulus**.
+> A **VR** version of the project on the **Occulus** was put together for storyteller training.
 
 ### Technology
 
@@ -33,7 +34,8 @@ Hardware included:
 
 The Tentaconte has a lot of "points of failure", (if any of these things break, it all goes down the drain) so I made sure all remote hardware pieces were replaceable with Keyboard controls and that the documentation was handed to the storytellers. *The show must go on*   
 <span style="color: gray;">Storytellers would complain as I was showing them the documentation "but I'm not gonna remember this" and I would look them in eye saying: What matters is not that you remember this, it's that you remember that the information is there, approximately what's in it, and how it's structured. </span>   
-**Institutionnal Amnesia**; the gradual decay of awareness about the existing tools and procedures can lead a business to develop the same tools over and over again. It is one of THE BIGGEST challenges we face as tool developpers. We can code the tools no problem, but That thing, That's what keeps me up at night.  
+
+Which leads me to mention **Institutionnal Amnesia**; the gradual decay of awareness about the existing tools and procedures can lead a business to develop the same tools over and over again. It is one of THE BIGGEST challenges we face as tool developpers. We can code the tools no problem, but That thing, That's what keeps me up at night.  
 
 I have Live-show experience so I could help with the Amps calibration, I could assist the storytellers in getting the best vocal tone possible.  
 
@@ -50,10 +52,36 @@ Now, Cubemap rendering uses the same principles as reflection probes: 6 cameras 
 Taking the new Cubemap, we can sample it in a shader and apply it to a Dome object of preferably high resolution.
 Sprinkling a bit of shader magic, I neutralized the undesired chromatic aberation, in our case it was a bichromatic yellow/blue, quite cool honestly, but it had to go.
 
+### Particles
+
+Cubemap rendering has a known weakness; screenspace effects like particles's built-in look-at cause the edges of the 6 cameras to show. 
+  <img src="Projects/TheTentaconte/SmokeLines.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;">Yikes!</span>
+
+The best solution to this is to reorient the particles to do a cylindrical look-at (instead of towards the camera's *plane* or any other form of Spherical Look-at) There are 2 accessible ways of doing this <span style="color: gray;">without getting real hacky and extending upon Shuriken Particles</span>, using **VertexShading** or the VFX graph.  
+
+*At the time I was working on this* The VFX Graph is a fairly new addition to Unity and it still has some game-breaking bugs: 
+- if you group-edit parameters, the whole parameter stack for all these object gets wiped. 
+- if you switch platforms all VFX graphs need to be manualy re-compiled.
+    <img src="Projects/TheTentaconte/FixedAxisUP.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;">VFX Graph fixed Axis Up solution, Sprites are skewed but displaying properly, distortions may still be required.</span>
+
+Alternatively, adding this function in a shader will fix the issue. 
+  <img src="Projects/TheTentaconte/VertexOffset.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
+
+
+
+  <img src="Projects/TheTentaconte/FixedAxisUP.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
 ### Importing Assets  
 
 Using Unity's **Preset Manager** I made sure every imported texture had the proper settings right off the bat. We're talking about up to a thousand animation sprites and background assets getting imported at the same time, originating from the animated feature film "Dounia".
 Then I proceeded to make some **Photoshop Scripts** to remove excess emptyness from the files.
+
+All sprite assets were to be assigned look-at constraints, so I automated that too.
 
 
 ### Audio
@@ -62,8 +90,11 @@ Then I proceeded to make some **Photoshop Scripts** to remove excess emptyness f
 
 My solution was to make some **Custom Markers** and little script to go with them to enable sound fading over time.  
 
+<img src="Projects/TheTentaconte/SoundSignals.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
 
-Cubemap rendering has a known weakness; screenspace effects like particles's built-in look-at cause the edges of the 6 cameras to show. The solution to this is to reorient the particles to a single point in space (instead of towards the camera's *plane*) using **VertexShading**  
+
+
 
 
 
@@ -74,8 +105,7 @@ Cubemap rendering has a known weakness; screenspace effects like particles's bui
 <span style="color: gray;"></span>  
 
 
-<img src="Projects/TheTentaconte/SoundSignals.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
+
 
 <img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
