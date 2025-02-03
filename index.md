@@ -11,7 +11,7 @@
 
 Hi! I'm a **lighting** and **Technical artist**.  
 
-I was rigging models in my basement with my 3D artist college degree and then one day I was swept into the wonderful world of Archviz.  
+I was rigging models in my basement with my 3D arts college degree and then one day I was swept into the wonderful world of Archviz.  
 I made a lot of buildings, of course, but more importantly I ended up working on **shaders**, **cameras**, **lighting**, **VFX**, **performances**, **tools** and assembling scenes (placing props, making things nice and cozy etc.)  
 
 Then I had the chance to work solo-dev on a few projects with the people from Tobo Studio.  
@@ -32,8 +32,8 @@ I'm very excitable about a few things:
 - stylization, or look-dev.   
 - tasks that make me say "Yes! it's working!"
 
-<a href="https://croquettelunchers.github.io/Projects/">
+<a href="https://croquettelunchers.github.io/Portfolio/Projects/">
     <img src="Projects/Megan/Shaman.gif" alt="SHOWME" style="height: 100px; width: auto">
   </a>
 
-[give it a spin!](https://croquettelunchers.github.io/Projects/)  
+[give it a spin!](https://croquettelunchers.github.io/Portfolio/Projects/)  
