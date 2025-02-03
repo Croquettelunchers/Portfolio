@@ -30,7 +30,7 @@ That required me to learn how to fix a lot of software and hardware related issu
 I'm very excitable about a few things:  
 - working in game engines, any in-engine job.  
 - stylization, or look-dev.   
-- tasks that make me say "ah!, it's working!"
+- tasks that make me say "Yes! it's working!"
 
 <a href="https://croquettelunchers.github.io/Projects/">
     <img src="Projects/Megan/Shaman.gif" alt="SHOWME" style="height: 100px; width: auto">
