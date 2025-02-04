@@ -55,46 +55,56 @@ Sprinkling a bit of shader magic, I neutralized the undesired chromatic aberatio
 ### Particles
 
 Cubemap rendering has a known weakness; screenspace effects like particles's built-in look-at cause the edges of the 6 cameras to show. 
-  <img src="Projects/TheTentaconte/SmokeLines.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+  <img src="Projects/TheTentaconte/SmokeLines.PNG" alt="SoundSignals" style="height: 280px; width: auto">  
 <span style="color: gray;">Yikes!</span>
 
 The best solution to this is to reorient the particles to do a cylindrical look-at (instead of towards the camera's *plane* or any other form of Spherical Look-at) There are 2 accessible ways of doing this <span style="color: gray;">without getting real hacky and extending upon Shuriken Particles</span>, using **VertexShading** or the VFX graph.  
 
 *At the time I was working on this* The VFX Graph is a fairly new addition to Unity and it still has some game-breaking bugs: 
 - if you group-edit parameters, the whole parameter stack for all these object gets wiped. 
-- if you switch platforms all VFX graphs need to be manualy re-compiled.
-    <img src="Projects/TheTentaconte/FixedAxisUP.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;">VFX Graph fixed Axis Up solution, Sprites are skewed but displaying properly, distortions may still be required.</span>
+- if you switch platforms all VFX graphs need to be manualy re-compiled.   
+    <img src="Projects/TheTentaconte/FixedAxisUP.PNG" alt="SoundSignals" style="height: 280px; width: auto">  
+<span style="color: gray;">VFX Graph fixed Axis Up solution, Sprites are skewed but displaying properly, distortions may still be required.</span>   
 
-Alternatively, adding this function in a shader will fix the issue. 
-  <img src="Projects/TheTentaconte/VertexOffset.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
-
-
+Alternatively, adding this function in a shader fixes the issue. 
+  <img src="Projects/TheTentaconte/LookAtConstraint.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;">By linking back the Y-axis of the 2 upper append nodes, we get a spherical look-at</span>
 
 
-  <img src="Projects/TheTentaconte/FixedAxisUP.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
+<br/>
 
 ### Importing Assets  
 
-Using Unity's **Preset Manager** I made sure every imported texture had the proper settings right off the bat. We're talking about up to a thousand animation sprites and background assets getting imported at the same time, originating from the animated feature film "Dounia".
-Then I proceeded to make some **Photoshop Scripts** to remove excess emptyness from the files.
+Using Unity's **Preset Manager** I made sure every imported texture had the proper settings right off the bat. We're talking about up to a thousand animation sprites and background assets getting imported at the same time, originating from the animated feature film "Dounia".  
+Then I proceeded to make some **Photoshop Scripts** to remove excess emptyness from the files.  
 
-All sprite assets were to be assigned look-at constraints, so I automated that too.
+I chose during prototyping phase that **Look-At Constraints** were going to be the solution to keeping all sprite assets oriented, so I automated that too.  
+<img src="Projects/TheTentaconte/AutoLookat.PNG" alt="AutoLookat" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
+
+I didn't really give any considerations to render orders and months after I had completed a scene I had to shuffle them back to accomodate screen-wide masks, it was terrible.  
+I made this dockable window tool to help present and future me with this.   
+<img src="Projects/TheTentaconte/SortRenderOrder.PNG" alt="SortRenderOrder" style="height: auto; width: auto">  
+<span style="color: gray;">It operates on selected object(s) and their children in hierarchy.</span>
 
 
 ### Audio
 
 **Audio files** in Unity's timelines can run in 2 different ways, they can play along as the timeline unravels, or they can be triggered from objects as events in the timeline. Which implies we have no control while the timeline is stopped and we were in fact facing a few moments where the sounds and music needed to fade away smoothly during stops.  
+<span style="color: gray;">It's important to factor-in the possibility of rewinding the timeline</span>
 
 My solution was to make some **Custom Markers** and little script to go with them to enable sound fading over time.  
 
 <img src="Projects/TheTentaconte/SoundSignals.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
 
+### Propagation System
 
+<img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
 
+<img src="Projects/TheTentaconte/FireListEvents.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<span style="color: gray;"></span>
 
 
 
@@ -107,11 +117,9 @@ My solution was to make some **Custom Markers** and little script to go with the
 
 
 
-<img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
 
-<img src="Projects/TheTentaconte/FireListEvents.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
+
+
 
 <img src="Projects/TheTentaconte/Embolden.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
@@ -119,8 +127,7 @@ My solution was to make some **Custom Markers** and little script to go with the
 <img src="Projects/TheTentaconte/AveragedBlur.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
 
-<img src="Projects/TheTentaconte/SortRenderOrder.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
+
 
 
 
