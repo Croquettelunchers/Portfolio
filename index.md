@@ -9,7 +9,12 @@
 </nav>
 -->
 
-Hi! I'm a **lighting** and **Technical artist**.  
+<a href="https://croquettelunchers.github.io/Portfolio/Projects/">
+    <img src="Projects/Megan/TraffiConeHidden.png" alt="" style="height: 32px; width: auto">
+  </a> Hi! I'm a **lighting** and **Technical artist**.
+  <a href="https://croquettelunchers.github.io/Portfolio/Projects/">
+    <img src="Projects/Megan/TraffiConeJump.png" alt="" style="height: 32px; width: auto">
+  </a>
 
 I was rigging models in my basement with my 3D arts college degree and then one day I was swept into the wonderful world of Archviz.  
 I made a lot of buildings, of course, but more importantly I ended up working on **shaders**, **cameras**, **lighting**, **VFX**, **performances**, **tools** and assembling scenes (placing props, making things nice and cozy etc.)  
@@ -32,8 +37,7 @@ I'm very excitable about a few things:
 - stylization, or look-dev.   
 - tasks that make me say "Yes! it's working!"
 
-<a href="https://croquettelunchers.github.io/Portfolio/Projects/">
-    <img src="Projects/Megan/Shaman.gif" alt="SHOWME" style="height: 100px; width: auto">
-  </a>
 
-[Show me stuff!](https://croquettelunchers.github.io/Portfolio/Projects/)  
+  <a href="https://croquettelunchers.github.io/Portfolio/Projects/">
+    <img src="Projects/Megan/TraffiConeAONAO.png" alt="" style="height: auto; width: auto">
+  </a> [Show me stuff!](https://croquettelunchers.github.io/Portfolio/Projects/)  
