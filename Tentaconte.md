@@ -98,7 +98,36 @@ My solution was to make some **Custom Markers** and little script to go with the
 <img src="Projects/TheTentaconte/SoundSignals.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
 
+### Shaders
+
+With the exception of that one hair strand from Dounia's facial animation loop, The entirety of her hair is made of maths. 
+
+<video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/TheTentaconte/DouniaHair1.mp4" type="video/mp4">
+</video>
+<span style="color: gray;"></span>  
+
+<video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/TheTentaconte/DouniaHair2.mp4" type="video/mp4">
+</video>
+<span style="color: gray;"></span>  
+
+We were losing our character's facial expressions to the projector's natural resolution and blur. 
+They were simply displayed too small.   
+So I had the idea to recycle an old averaged-Blur function of mine and switch-out its blending to turn it into an Embolden function instead
+
+<img src="Projects/TheTentaconte/Embolden.PNG" alt="Embolden" style="height: 250px; width: auto">  
+<span style="color: gray;"></span>
+
+<img src="Projects/TheTentaconte/AveragedBlur.PNG" alt="AveragedBlur" style="height: 250px; width: auto">  
+<span style="color: gray;">Blur! it's really nice when used with Screen Grabs</span>
+
+
+
 ### Propagation System
+
+
+
 
 <img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
@@ -110,7 +139,7 @@ My solution was to make some **Custom Markers** and little script to go with the
 
 
 <video controls width="560" style="display: block; margin: 0 auto;">
-  <source src="Projects/Tremblant/PortfolioTremblant.mp4" type="video/mp4">
+  <source src="Projects/TheTentaconte/DouniaHair1.mp4" type="video/mp4">
 </video>
 <span style="color: gray;"></span>  
 
