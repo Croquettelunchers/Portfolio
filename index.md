@@ -45,6 +45,6 @@ I'm very excitable about a few things:
 
 
   
-  [Show me stuff!](https://croquettelunchers.github.io/Portfolio/Projects/)  <a href="https://croquettelunchers.github.io/Portfolio/Projects/">
+[Show me stuff!](https://croquettelunchers.github.io/Portfolio/Projects/)  <a href="https://croquettelunchers.github.io/Portfolio/Projects/">
     <img src="Projects/Megan/TraffiConeAONAO.png" alt="" style="height: auto; width: auto">
   </a> 
