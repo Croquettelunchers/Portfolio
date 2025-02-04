@@ -25,6 +25,9 @@
     <a href="TheTentaconte">
     <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="Image 3" style="height: 200px; width: auto">
   </a>
+    <a href="Lighting">
+    <img src="Projects/Lighting/Lighting.PNG" alt="Image 3" style="height: 200px; width: auto">
+  </a>
 </div>
 
 
