@@ -128,7 +128,7 @@ Animator **Blend states** are meant to handle complex compound movements but the
 
 <br/>
 
-Megan Controls: 🔽   
+[Megan Controls](MeganControls.md)
 
 <br/>
 
