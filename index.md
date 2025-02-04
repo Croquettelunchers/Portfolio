@@ -43,6 +43,6 @@ I'm very excitable about a few things:
 I'm currently living in Montreal.   
 You can reach me through **Croquettelunchers@gmail.com**   
   
-[Show me stuff!](https://croquettelunchers.github.io/Portfolio/Projects/)  <a href="https://croquettelunchers.github.io/Portfolio/Projects/">
+[Show me stuff!](Projects.md)   <a href="https://croquettelunchers.github.io/Portfolio/Projects/">
     <img src="Projects/Megan/TraffiConeAONAO.png" alt="" style="height: auto; width: auto">
   </a> 
