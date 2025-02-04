@@ -24,7 +24,7 @@ Here is how I approached this:
 <br/>
 
 Sky colors as well as sunset and sunrise positions were adapted to the reduced daytime that happens during Quebec winters.  
- <span style="color: gray;">I planned what needed to be done and how but I did not personnaly execute this part. </span>
+ <span style="color: gray;">I planned what needed to be done and how but I did not personnaly code this part. I did configure it though</span>
 
 fun fact about inspecting performances on this project is that we struggled finding why we were CPU-bound causing odd regular little lag spikes rippling out to GPU before realizing it was our own FPS Cap: "Application.targetFrameRate = *x*"
 
