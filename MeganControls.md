@@ -1,6 +1,6 @@
 [Home](index.md) | [Projects](Projects.md) 
 
-[Back To Megan](index.md)
+[Back To Megan](Megan.md)
 
 | Action | Info | Keyboard Controls | Controller Controls |
 |--------|------|-------------------|---------------------|
@@ -23,4 +23,4 @@
 | Stop hacking | Stop hacking by jumping out | Space | Button South |
 | Switch to V | Change character | Right Shift | |
 
-[Back To Megan](index.md)
+[Back To Megan](Megan.md)
