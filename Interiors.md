@@ -23,6 +23,8 @@ We knew clients would likely not provide proper HDRI, but stitched-up drone imag
   <source src="Projects/Interiors/HDRI_Controller.mp4" type="video/mp4">
 </video>
 
+<br/>
+
 <img src="Projects/Interiors/Interior2.png" alt="Interior2" style="height: auto; width: auto">  
 <span style="color: gray;"></span>  
 
@@ -34,14 +36,14 @@ Considering lightbounces, all interchangeable assets had to be baked with neutra
 <br/>
 
 <img src="Projects/Interiors/Interior4.png" alt="Interior4" style="height: auto; width: auto">  
-<span style="color: gray;">Different styling, same kitchen</span>  
+<span style="color: gray;"></span> 
 
 <br/>
 
 Caustics from the glass were just 2 quads with chromatic aberation surface shaders. Decals were not featured in the engine at the time.
 
 <img src="Projects/Interiors/Interior5.png" alt="Interior5" style="height: auto; width: auto">  
-<span style="color: gray;"></span>  
+<span style="color: gray;">Different styling, same kitchen</span>  
 
 <br/>
 
