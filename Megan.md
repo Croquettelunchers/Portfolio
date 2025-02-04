@@ -120,17 +120,17 @@ Animator **Blend states** are meant to handle complex compound movements but the
 ---
 <br/>
 
-
+<a href="https://croquettelunchers.github.io/Megan/">
+    <img src="Projects/Megan/Shaman.gif" alt="Megan video game project" style="height: 100px; width: auto">
+  </a>  
+  
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
 <br/>
 
 <details>
-  <summary>Megan Controls: 🔽</summary>
+  <summary>Megan Controls: 🔽  </summary>
 
-
-<br/>
-  <!-- Add a blank line after the <summary> and before the table -->
 <br/>
 
 | Action | Info | Keyboard Controls | Controller Controls |
