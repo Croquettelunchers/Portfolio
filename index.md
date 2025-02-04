@@ -9,10 +9,10 @@
 </nav>
 -->
 
-<a href="https://croquettelunchers.github.io/Portfolio/Projects/">
+<a href="Projects">
     <img src="Projects/Megan/TraffiConeHidden.png" alt="" style="height: 32px; width: auto">
   </a> Hi! I'm a **lighting** and **Technical artist**.
-  <a href="https://croquettelunchers.github.io/Portfolio/Projects/">
+<a href="Projects">
     <img src="Projects/Megan/TraffiConeJump.png" alt="" style="height: 32px; width: auto">
   </a>
   
@@ -43,6 +43,6 @@ I'm very excitable about a few things:
 I'm currently living in Montreal.   
 You can reach me through **Croquettelunchers@gmail.com**   
   
-[Show me stuff!](Projects.md)   <a href="https://croquettelunchers.github.io/Portfolio/Projects/">
+[Show me stuff!](Projects.md) <a href="Projects">
     <img src="Projects/Megan/TraffiConeAONAO.png" alt="" style="height: auto; width: auto">
   </a> 
