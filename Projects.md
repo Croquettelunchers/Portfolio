@@ -22,6 +22,9 @@
   <a href="Tremblant">
     <img src="Projects/Tremblant/Tremblant.PNG" alt="Image 3" style="height: 200px; width: auto">
   </a>
+    <a href="TheTentaconte">
+    <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="Image 3" style="height: 200px; width: auto">
+  </a>
 </div>
 
 
