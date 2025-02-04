@@ -17,7 +17,6 @@
   </a>
   
 <br/>
-<br/>
 
 I was rigging models in my basement with my 3D arts college degree and then one day I was swept into the wonderful world of Archviz.  
 I made a lot of buildings, of course, but more importantly I ended up working on **shaders**, **cameras**, **lighting**, **VFX**, **performances**, **tools** and assembling scenes (placing props, making things nice and cozy etc.)  
