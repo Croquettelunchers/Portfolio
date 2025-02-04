@@ -3,14 +3,14 @@
 # Tentaconte
 
 The Tentaconte projects that I was charged with were live-entertainment events aimed at young audiences (between 5 to 12).  
-A storyteller rallies up the crowd inside a blow-up hemispherical tent on which an interractive projection is displayed.  
+A storyteller rallies up the crowd inside a blow-up hemispherical tent on which an interactive projection is displayed.  
 My job was to take the visuals and storyboard provided and put it all together, animate, rig, code, you name it!  
 
 <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
 
 
-> These are **Unity** pseudo-2D interractive movies.  
+> These are **Unity** pseudo-2D interactive movies.  
 > A bit of **Blender** modeling-from-images was involved  
 > A **VR** version of the project on the **Occulus** was put together for storyteller training.
 
@@ -37,7 +37,7 @@ The Tentaconte has a lot of "points of failure", (if any of these things break, 
 
 Which leads me to mention **Institutionnal Amnesia**; the gradual decay of awareness about the existing tools and procedures can lead a business to develop the same tools over and over again. It is one of THE BIGGEST challenges we face as tool developpers. We can code the tools no problem, but That thing, That's what keeps me up at night.  
 
-I have Live-show experience so I could help with the Amps calibration, I could assist the storytellers in getting the best vocal tone possible.  
+I have Live-show experience so I could help with the Amps calibration and assist the storytellers in getting the best vocal tone possible.  
 
 
 
@@ -98,6 +98,8 @@ My solution was to make some **Custom Markers** and little script to go with the
 <img src="Projects/TheTentaconte/SoundSignals.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
 
+I made around 40% of one of the project's sounds! Mario64-style recycling potentialy saved us days.  
+
 ### Shaders
 
 With the exception of that one hair strand from Dounia's facial animation loop, The entirety of her hair is made of maths. 
@@ -126,35 +128,37 @@ So I had the idea to recycle an old averaged-Blur function of mine and switch-ou
 
 ### Propagation System
 
+What I call Propagation is a short network of events and tweens.
 
+1. The **timeline** sends these **events**: Play, Stop and ForceShutDown  
+2. Objects are **pooled** and **sorted** *spatialy in this case, by a mix of X, Y and Z axis*  
+3. A Master object receives the timeline events and fires similar events to individual objects in the group, at calculated intervals *using curves for that progressive drop*  
+<span style="color: gray;">At any given time the storyteller can warp to the previous or next notch in the timeline so both peaceful and forceful interruptions apply</span>  
+4. Slave objects trigger animations on themselves. I opted for **tweens** using visual scripting but running animators animations would've been an equaly viable option.
+
+<video controls width="560" style="display: block; margin: 0 auto;">
+  <source src="Projects/TheTentaconte/Propagation.mp4" type="video/mp4">
+</video>
+<span style="color: gray;">Lots of cheese in pots</span>  
 
 
 <img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
+<span style="color: gray;">listing and sorting cheese pots</span>
 
 <img src="Projects/TheTentaconte/FireListEvents.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
+<span style="color: gray;">My original event names are bad</span>
 
 
-
+While I waited for our soundguy to provide, I made a tool to help 2D artists visualize how their images were going to look on-site.  
+The Tentaconte Simulator is a standalone application that requires no knowledge of Unity to run.
 
 <video controls width="560" style="display: block; margin: 0 auto;">
-  <source src="Projects/TheTentaconte/DouniaHair1.mp4" type="video/mp4">
+  <source src="Projects/TheTentaconte/PortfolioTentaconteSimulator.mp4" type="video/mp4">
 </video>
 <span style="color: gray;"></span>  
 
 
 
-
-
-
-
-
-<img src="Projects/TheTentaconte/Embolden.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
-
-<img src="Projects/TheTentaconte/AveragedBlur.PNG" alt="SoundSignals" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
 
 
 
