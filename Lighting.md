@@ -14,7 +14,8 @@ I did cameras, lighting, materials, lots of shaders and post-process works on th
   <source src="Projects/InteriorShader/Lighting.mp4" type="video/mp4">
 </video>
 
-I don't really know what to say about it, this project was one the first of ours to use the international lighting units.  
+<br/> 
+
 It was the first outside of the prototype box to use **physicaly-based lighting** for an actual client, it was exciting to work on.  
 I think I went back and forth on the fog curve like 12 times. We must have retoned the trees like, 4 times.  
 This was going to set the trend for so many future projects to come.  
