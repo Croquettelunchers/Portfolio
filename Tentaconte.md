@@ -78,7 +78,7 @@ Alternatively, adding this function in a shader fixes the issue.
 Using Unity's **Preset Manager** I made sure every imported texture had the proper settings right off the bat. We're talking about up to a thousand animation sprites and background assets getting imported at the same time, originating from the animated feature film "Dounia".  
 Then I proceeded to make some **Photoshop Scripts** to remove excess emptyness from the files.  
 
-I chose during prototyping phase that **Look-At Constraints** were going to be the solution to keeping all sprite assets oriented, so I automated that too.  
+I chose during the prototyping phase that **Look-At Constraints** were going to be the solution to keeping all sprite assets oriented, so I automated that too.  
 <img src="Projects/TheTentaconte/AutoLookat.PNG" alt="AutoLookat" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
 
