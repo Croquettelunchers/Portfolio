@@ -142,10 +142,10 @@ What I call Propagation is a short network of events and tweens.
 <span style="color: gray;">Lots of cheese in pots</span>  
 
 
-<img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: 400px">  
 <span style="color: gray;">listing and sorting cheese pots</span>
 
-<img src="Projects/TheTentaconte/FireListEvents.PNG" alt="SoundSignals" style="height: auto; width: auto">  
+<img src="Projects/TheTentaconte/FireListEvents.PNG" alt="SoundSignals" style="height: auto; width: 400px">  
 <span style="color: gray;">My original event names are bad</span>
 
 
