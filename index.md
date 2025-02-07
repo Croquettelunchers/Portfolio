@@ -11,11 +11,11 @@
 
 <a href="Projects">
     <img src="Projects/Megan/TraffiConeHidden.png" alt="" style="height: 32px; width: auto">
-  </a> Hi! I'm a **lighting** and **Technical artist**.
+  </a> Hi! I'm a **lighting** and **Technical artist**
 <a href="Projects">
     <img src="Projects/Megan/TraffiConeJump.png" alt="" style="height: 32px; width: auto">
   </a>
-  
+    
 <br/>
 
 I was rigging models in my basement with my 3D arts college degree and then one day I was swept into the wonderful world of Archviz.  
@@ -41,7 +41,29 @@ I'm very excitable about a few things:
 
 I'm currently living in Montreal.   
 You can reach me through **Croquettelunchers@gmail.com**   
-  
-[Show me stuff!](Projects.md) <a href="Projects">
-    <img src="Projects/Megan/TraffiConeAONAO.png" alt="" style="height: auto; width: auto">
-  </a> 
+
+<br/>
+
+<div style="display: flex-wrap: wrap;gap: 10px;">
+  <a href="Megan">
+    <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
+  </a>
+  <a href="FakeInteriors">
+    <img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="Image 3" style="height: 200px; width: auto">
+  </a>
+  <a href="Interiors">
+    <img src="Projects/Interiors/Interior1.png" alt="Image 2" style="height: 200px; width: auto">
+  </a>
+  <a href="VFX">
+    <img src="Projects/VFX/UIReticle2.jpg" alt="Image 3" style="height: 200px; width: auto">
+  </a>
+  <a href="Tremblant">
+    <img src="Projects/Tremblant/Tremblant.PNG" alt="Image 3" style="height: 200px; width: auto">
+  </a>
+  <a href="Tentaconte">
+    <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="Image 3" style="height: 200px; width: auto">
+  </a>
+  <a href="Lighting">
+    <img src="Projects/InteriorShader/Lighting.PNG" alt="Image 3" style="height: 200px; width: auto">
+  </a>
+</div>
