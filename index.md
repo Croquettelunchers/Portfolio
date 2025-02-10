@@ -45,26 +45,32 @@ You can reach me through **Croquettelunchers@gmail.com**
 <br/>
 
 <div style="display: flex-wrap: wrap;gap: 10px;">
-  <a href="Projects"><h3>Megan</h3>
+  <a href="Megan"><h1>Megan Videogame</h1>
   <a href="Megan">
     <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
   </a>
   <a href="FakeInteriors">
+    <a href="FakeInteriors"><h1>Interior Shader</h1>
     <img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="Image 3" style="height: 200px; width: auto">
   </a>
   <a href="Interiors">
+    <a href="Interiors"><h1>Baked Interiors Lighting</h1>
     <img src="Projects/Interiors/Interior1.png" alt="Image 2" style="height: 200px; width: auto">
   </a>
   <a href="VFX">
+    <a href="VFX"><h1>UI Gizmos VFX</h1>
     <img src="Projects/VFX/UIReticle2.jpg" alt="Image 3" style="height: 200px; width: auto">
   </a>
   <a href="Tremblant">
+    <a href="Tremblant"><h1>Snow-Up Shaders</h1>
     <img src="Projects/Tremblant/Tremblant.PNG" alt="Image 3" style="height: 200px; width: auto">
   </a>
   <a href="Tentaconte">
+    <a href="Tentaconte"><h1>Tentaconte</h1>
     <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="Image 3" style="height: 200px; width: auto">
   </a>
   <a href="Lighting">
+    <a href="Lighting"><h1>Lighting</h1>
     <img src="Projects/InteriorShader/Lighting.PNG" alt="Image 3" style="height: 200px; width: auto">
   </a>
 </div>
