@@ -13,14 +13,17 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
 
-<div style="display: flex-wrap: wrap;gap: 20px;">
-    <video controls width="580" style="display: block; margin: 0 auto;">
+<video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganScandalousBlast.mp4" type="video/mp4"> 
-</video>
-<div style="display: flex-wrap: wrap;gap: 20px;">
-    <video controls width="580" style="display: block; margin: 0 auto;">
+</video>  
+
+<br/>
+
+<video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/LilVHovers.mp4" type="video/mp4"> 
-</video>
+</video>  
+
+<br/>
 
 ## Technical features:
 
@@ -161,52 +164,61 @@ I'm also trying to follow MetalWarriors or DeadSpace's **no UI** philosophy and 
 <details>
  <summary>Display Gallery🔽</summary>
 
-<div style="display: flex-wrap: wrap;gap: 20px;">
-    <video controls width="580" style="display: block; margin: 0 auto;">
+
+<video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4"> 
 </video>
 Megan Sprints
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSlides.mp4" type="video/mp4">
 </video>
 Megan Slides
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganGrabs.mp4" type="video/mp4">
 </video>
 Megan Grabs
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganThrows.mp4" type="video/mp4">
 </video>
 Megan Throws
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganScandalousSmash.mp4" type="video/mp4">
 </video>
 Scandalous Smashes
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRepeatedJumps.mp4" type="video/mp4">
 </video>
 Smash-a-jumping
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRipsAndHacks.mp4" type="video/mp4">
 </video>
 Megan Rips and Hacks
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganHardcoreDeathnimation.mp4" type="video/mp4">
 </video>
 Megan hardcore death animation
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffs.mp4" type="video/mp4">
 </video>
 Megan Fisticuffs
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffRandomness.mp4" type="video/mp4">
 </video>
 Megan Fisticuff Randomness
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSoccer.mp4" type="video/mp4">
 </video>
 Megan Soccer
-</div>
 </details>  
 
 <br/>
