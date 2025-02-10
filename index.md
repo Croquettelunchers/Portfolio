@@ -44,6 +44,8 @@ You can reach me through **Croquettelunchers@gmail.com**
 
 <br/>
 
+<span style="color: gray;">Click the links below</span>
+
 <div style="display: flex-wrap: wrap;gap: 10px;">
   <a href="Megan"><h1>Megan Videogame</h1>
   <a href="Megan">
