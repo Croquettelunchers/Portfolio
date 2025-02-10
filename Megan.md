@@ -13,14 +13,10 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
 
-<video controls width="580" style="display: block; margin: 0 auto;">
-  <source src="Projects/Megan/MeganScandalousBlast.mp4" type="video/mp4"> 
-</video>  
-
 <br/>
 
 <video controls width="580" style="display: block; margin: 0 auto;">
-  <source src="Projects/Megan/LilVHovers.mp4" type="video/mp4"> 
+  <source src="Projects/Megan/LilVAims.mp4" type="video/mp4"> 
 </video>  
 
 <br/>
