@@ -13,6 +13,15 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
 
+<div style="display: flex-wrap: wrap;gap: 20px;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/MeganScandalousBlast.mp4" type="video/mp4"> 
+</video>
+<div style="display: flex-wrap: wrap;gap: 20px;">
+    <video controls width="580" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/LilVHovers.mp4" type="video/mp4"> 
+</video>
+
 ## Technical features:
 
 ### Pooling
@@ -151,6 +160,7 @@ I'm also trying to follow MetalWarriors or DeadSpace's **no UI** philosophy and 
 
 <details>
  <summary>Display Gallery🔽</summary>
+
 <div style="display: flex-wrap: wrap;gap: 20px;">
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4"> 
