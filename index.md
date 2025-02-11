@@ -48,6 +48,7 @@ You can reach me through **Croquettelunchers@gmail.com**
 
 <div style="display: flex-wrap: wrap;gap: 10px;">
   <a href="Megan"><h1>Megan Videogame</h1>
+    [Home](index.md)
   <a href="Megan">
     <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
   </a>
