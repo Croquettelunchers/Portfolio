@@ -47,38 +47,38 @@ You can reach me through **Croquettelunchers@gmail.com**
 <span style="color: gray;">Click the links below</span>
 
 <div style="display: flex-wrap: wrap;gap: 10px;">
-  <a href="Megan">[Megan Videogame]<br/>
+  <a href="Megan"><big>[Megan Videogame]</big><br/>
   <a href="Megan">
     <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
   </a>
     <br/>
   <a href="FakeInteriors">
-    <a href="FakeInteriors">[Interior Shader]<br/>
+    <a href="FakeInteriors"><big>[Interior Shader]</big><br/>
     <img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="Image 3" style="height: 200px; width: auto">
   </a>
     <br/>
   <a href="Interiors">
-    <a href="Interiors">[Baked Interiors Lighting]<br/>
+    <a href="Interiors"><big>[Baked Interiors Lighting]</big><br/>
     <img src="Projects/Interiors/Interior1.png" alt="Image 2" style="height: 200px; width: auto">
   </a>
     <br/>
   <a href="VFX">
-    <a href="VFX">[UI Gizmos VFX]<br/>
+    <a href="VFX"><big>[UI Gizmos VFX]</big><br/>
     <img src="Projects/VFX/UIReticle2.jpg" alt="Image 3" style="height: 200px; width: auto">
   </a>
     <br/>
   <a href="Tremblant">
-    <a href="Tremblant">[Snow-Up Shaders]<br/>
+    <a href="Tremblant"><big>[Snow-Up Shaders]</big><br/>
     <img src="Projects/Tremblant/Tremblant.PNG" alt="Image 3" style="height: 200px; width: auto">
   </a>
     <br/>
   <a href="Tentaconte">
-    <a href="Tentaconte">[Tentaconte]<br/>
+    <a href="Tentaconte"><big>[Tentaconte]</big><br/>
     <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="Image 3" style="height: 200px; width: auto">
   </a>
     <br/>
   <a href="Lighting">
-    <a href="Lighting">[Lighting]<br/>
+    <a href="Lighting"><big>[Lighting]</big><br/>
     <img src="Projects/InteriorShader/Lighting.PNG" alt="Image 3" style="height: 200px; width: auto">
   </a>
     <br/>
