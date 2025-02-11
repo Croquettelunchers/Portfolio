@@ -15,9 +15,7 @@ Here's a few of the things that get me excited when working for my clients:
 
 ## Reach Out!
 
-```
-I am currently open for new opportunities!
-```
+> I am currently open for new opportunities!
 
 Check out my resume on [Linked In](https://www.linkedin.com/in/francis-boucher-ba9b1a55/).
 
