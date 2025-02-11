@@ -1,4 +1,4 @@
-[Home](index.md) | [Projects](Projects.md) 
+[About Me](index.md) | [Projects](Projects.md) 
 
 ## Wanna play some Megan, man?
 Megan is a fun little pixel art platformer project that I use to test whatever comes to mind.  

@@ -1,4 +1,4 @@
-[Home](index.md) | [Projects](Projects.md) 
+[About Me](index.md) | [Projects](Projects.md) 
 
 <!--
 <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan, The game" width="20%" />
