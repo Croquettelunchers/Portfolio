@@ -2,22 +2,15 @@
 
 # Lighting
 
-> Done in **Unity** using in-house lighting tools.
+> Done in the **Unity** engine, using their in-house lighting tools.
 
-<br/> 
-
-I did cameras, lighting, materials, lots of shaders and post-process works on this project.  
-
-
-<br/> 
+For this project I worked on cameras, lighting, materials, numerous shaders and post-processing.  
+ 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/InteriorShader/Lighting.mp4" type="video/mp4">
 </video>
+<br>
 
-<br/> 
-
-It was the first outside of the prototype box to use **physicaly-based lighting** for an actual client, it was exciting to work on.  
-I think I went back and forth on the fog curve like 12 times. We must have retoned the trees 4 times.  
-This was going to set the trend for so many future projects to come.  
-
-Fun fact about the background is that we have good tools and shaders to provide fully textured background buildings but clients rarely ever want to pay for it. 
+I was very excited to use **physic-based lighting** for a client's project. We were very meticulous over this assigment:
+I think I must have been back and forth on the fog curve around 12 times! The trees have been retoned 4 times. 
+The end results paid off and did set the technical standard for following projects.  
