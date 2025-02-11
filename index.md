@@ -47,32 +47,39 @@ You can reach me through **Croquettelunchers@gmail.com**
 <span style="color: gray;">Click the links below</span>
 
 <div style="display: flex-wrap: wrap;gap: 10px;">
-  <a href="Megan">[Megan Videogame]
+  <a href="Megan">[Megan Videogame]<br/>
   <a href="Megan">
     <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
   </a>
+    <br/>
   <a href="FakeInteriors">
-    <a href="FakeInteriors">[Interior Shader]
+    <a href="FakeInteriors">[Interior Shader]<br/>
     <img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="Image 3" style="height: 200px; width: auto">
   </a>
+    <br/>
   <a href="Interiors">
-    <a href="Interiors">[Baked Interiors Lighting]
+    <a href="Interiors">[Baked Interiors Lighting]<br/>
     <img src="Projects/Interiors/Interior1.png" alt="Image 2" style="height: 200px; width: auto">
   </a>
+    <br/>
   <a href="VFX">
-    <a href="VFX">[UI Gizmos VFX]
+    <a href="VFX">[UI Gizmos VFX]<br/>
     <img src="Projects/VFX/UIReticle2.jpg" alt="Image 3" style="height: 200px; width: auto">
   </a>
+    <br/>
   <a href="Tremblant">
-    <a href="Tremblant">[Snow-Up Shaders]
+    <a href="Tremblant">[Snow-Up Shaders]<br/>
     <img src="Projects/Tremblant/Tremblant.PNG" alt="Image 3" style="height: 200px; width: auto">
   </a>
+    <br/>
   <a href="Tentaconte">
-    <a href="Tentaconte">[Tentaconte]
+    <a href="Tentaconte">[Tentaconte]<br/>
     <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="Image 3" style="height: 200px; width: auto">
   </a>
+    <br/>
   <a href="Lighting">
-    <a href="Lighting">[Lighting]
+    <a href="Lighting">[Lighting]<br/>
     <img src="Projects/InteriorShader/Lighting.PNG" alt="Image 3" style="height: 200px; width: auto">
   </a>
+    <br/>
 </div>
