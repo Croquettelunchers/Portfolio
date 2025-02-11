@@ -46,7 +46,7 @@ You can reach me through **Croquettelunchers@gmail.com**
 
 <span style="color: gray;">Click the links below</span>
 
-<div style="display: flex-wrap: wrap;gap: 10px;">
+
   <a href="Megan"><big>[Megan Videogame]</big><br/>
   <a href="Megan">
     <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
@@ -82,4 +82,4 @@ You can reach me through **Croquettelunchers@gmail.com**
     <img src="Projects/InteriorShader/Lighting.PNG" alt="Image 3" style="height: 200px; width: auto">
   </a>
     <br/>
-</div>
+
