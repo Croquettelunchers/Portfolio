@@ -1,8 +1,8 @@
 [About Me](index.md) | [Projects](Projects.md) 
 
-<img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="BuildingCapture" style="height: auto; width: auto">   
-
 # Interior Shader
+
+<img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="BuildingCapture" style="height: auto; width: auto">   
 
 Interior shaders, also called fake interiors, are a rendering technique using multiple parallaxed UV coordinates to simulate depth.
 This particular shader features **atlassed textures**: all of the different interiors are compacted on a single, interchangeable "collection" texture of variable size. The curtains are featured on a separate collection. Both of these allow us to adapt to different architectural styles.
