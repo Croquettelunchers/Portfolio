@@ -1,39 +1,41 @@
 [About Me](index.md) | [Projects](Projects.md) 
 
->This a **Unity amplify shader** VFX minikit with some 3d models 
+# VFX
 
-Every once in a blue moon a client hits you with some Cyberpunk-grade "this is an experience" design.  
-These, are, **AWESOME**.
+## Next-Level User Experience
 
-<br/>
- <span style="color: gray;">Using photoshop to subdivide a circle into equidistant lines of equal lenght gave me an idea: what if I used Vertex Color on torusses to do exactly that? </span>
-  
+Every once in a while a client hits you with some Cyberpunk-grade "*this is an experience*" design.  
+These, are, **AWESOME**. Often times they will feature extensive motion design added to their UI experience, with quirky animated gizmos or transitions.
+Typically, these designs share a base set of common animation "rules" such starting with an expansion, shapes completions, fades, etc.
 
-So, combining multiple rudimentary shapes: Quads, Circles, Hexes, Squares and Triangles, you can quickly produce a variety of dynamic UI pins and gizmos. 
-
+Check out the following videos for examples for custom VFX requests in application.
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
 </video>
- <span style="color: gray;">Fire some missiles!</span>  
+<p style="color: gray;">Fire some missiles!</p>
 
-<br/>
-
-Typicaly, clients like these better though:
+Or a more typical transition animation, highly appreciated by clients :
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/LozengePin2.mp4" type="video/mp4">
 </video>
- <span style="color: gray;">Elegant, simple, chef's kiss</span>
+<p style="color: gray;">Elegant, simple, chef's kiss</p>
 
-<br/>
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/HexPin.mp4" type="video/mp4">
 </video>
- <span style="color: gray;">I can do this all day, but I don't have to! it only takes 15 minutes to pop one of these bad boys</span>
+<p style="color: gray;">I can do this all day... but I don't have to! It only takes about 15 minutes to configure one of these bad boys now.</p>
 
-<br/>
-There's often quite a fuss over world-space UI elements about whether or not to render them on top of the rest of the geometry. 
+## Solution
+
+> The tool I created is a **Unity amplify shader** VFX minikit combined with some 3d models.
+
+Using photoshop to subdivide a circle into equidistant lines of equal lenght gave me an idea: what if I used Vertex Color on torusses to do exactly that?
+
+So, combining multiple rudimentary shapes: Quads, Circles, Hexes, Squares and Triangles, we can quickly produce a variety of dynamic UI pins and gizmos. All using the same tool.
+
+There's often quite a fuss over world-space UI elements, about whether or not to render them on top of the rest of the geometry. 
 Depending on how crowded the visuals are, I tend to lean towards partial fading.
 
 <img src="Projects/VFX/RenderOnTop.gif" alt="renderquirk" style="height: 280px; width: auto">  
