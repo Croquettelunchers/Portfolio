@@ -20,6 +20,10 @@
 .project a, a:visited {
 	color: black;
 }
+.project a:hover {
+	color: #004c52;
+	text-decoration: underline;
+}
 .demo {
 	font-size: 18px;
 	position: absolute;
@@ -28,7 +32,7 @@
 	padding: 5px 8px;
 	border: 1px solid #353535;
 	border-radius: 5px;
-	background: url(../images/nav-bg.gif) #353535;
+	background-color: #353535;
 	color: #d7cfbe;
 }
 </style>
@@ -38,33 +42,47 @@
 I'm proud to introduce some of the projects I've recently been involved in. Each offers a different and interesting technical challenge.
 
 <div class="project">
-  <a href="Megan">Retro-styled Video Game Prototype</a>
-  <span class="demo">Includes a live demo!</span>
-  <img src="Projects/Menu Icons/PocketMegBigCrop.png" alt="Megan video game project">
+  <a href="Megan">
+	Retro-styled Video Game Prototype
+    <span class="demo">Includes a live demo!</span>
+    <img src="Projects/Menu Icons/PocketMegBigCrop.png" alt="Megan video game project">
+  </a>
 </div>
 <div class="project">
-  <a href="FakeInteriors">Interior Shader</a>
-  <img src="Projects/Menu Icons/InteriorsShader4.png">
+  <a href="FakeInteriors">
+    Interior Shader
+    <img src="Projects/Menu Icons/InteriorsShader4.png">
+  </a>
 </div>
 <div class="project">
-  <a href="Interiors">Interior Lightbaking</a>
-  <img src="Projects/Menu Icons/Interior1.png">
+  <a href="Interiors">
+    Interior Lightbaking
+    <img src="Projects/Menu Icons/Interior1.png">
+  </a>
 </div>
 <div class="project">
-  <a href="VFX">VFX</a>
-  <img src="Projects/Menu Icons/UIReticle2.png">
+  <a href="VFX">
+	VFX
+	<img src="Projects/Menu Icons/UIReticle2.png">
+  </a>
 </div>
 <div class="project">
-  <a href="Tremblant">Tremblant Winter-Shading</a>
-  <img src="Projects/Menu Icons/Tremblant.png">
+  <a href="Tremblant">
+	Tremblant Winter-Shading
+	<img src="Projects/Menu Icons/Tremblant.png">
+  </a>
 </div>
 <div class="project">
-  <a href="Tentaconte">Tentaconte</a>
-  <img src="Projects/Menu Icons/TentacontePhoto.png">
+  <a href="Tentaconte">
+	Tentaconte
+	<img src="Projects/Menu Icons/TentacontePhoto.png">
+  </a>
 </div>
 <div class="project">
-  <a href="Lighting">Lighting</a>
-  <img src="Projects/Menu Icons/Lighting.png">
+  <a href="Lighting">
+	Lighting
+	<img src="Projects/Menu Icons/Lighting.png">
+  </a>
 </div>
 
 
