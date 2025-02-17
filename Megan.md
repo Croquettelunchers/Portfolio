@@ -10,11 +10,23 @@
     padding: 2px;
     font-size: 32px;
   }
+  details > summary {
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    color: #ffcc00;
+    display: inherit;
+    font-size: 18xpx;
+  }
+  details > summary:hover {
+    color: #ffeb9b;
+    text-decoration: underline;
+  }
 </style>
 
 # Retro-styled Video Game Prototype
 
-> <img src="Projects/Megan/TraffiConeHidden.png" alt="" style="height: 32px; width: auto">Wanna play some Megan, man?<img src="Projects/Megan/TraffiConeJump.png" alt="" style="height: 32px; width: auto">
+> <img src="Projects/Megan/TraffiConeHidden.png" alt="" style="height: 32px; width: auto">Wanna play some Megan, man?<img src="Projects/Megan/TraffiConeJump.png" alt="" style="height: 32px; width: auto; margin-left: 5px;">
 
 <div style="display: table; padding-bottom: 12px">
   <img src="Projects/Megan/Shaman.gif" alt="Megan video game project" style="height: 100px; width: auto; float: left; margin: 0 15px 0 0;">
