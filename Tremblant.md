@@ -20,7 +20,7 @@ Here was my approach:
 
 A snow particles's spawner forms a box around the camera, just big enough that if you move the camera around we don't lose the effect. It's nothing fancy. Performances were good enough that we could enable collisions, letting them stick around a little bit on surfaces before fading away.  
 
-<video controls width="560" style="display: block; margin: 0 auto;">
+<video controls width="560" style="display: block; margin: 0 auto 20px auto;">
   <source src="Projects/Tremblant/PortfolioTremblant2.mp4" type="video/mp4">
 </video>
 
@@ -31,7 +31,7 @@ These are the actual sunsets and sunrise positions for both summer and winter at
 Sky colors as well as sunset and sunrise positions were adapted to the reduced daytime that happens during Quebec winters.  
 <span style="color: gray;">I was involved in design and planning for this feature. Coding was done by other colleagues. I did configure the results.</span>
 
-<video controls width="560" style="display: block; margin: 0 auto;">
+<video controls width="560" style="display: block; margin: 0 auto 20px auto;">
   <source src="Projects/Tremblant/PortfolioTremblant3.mp4" type="video/mp4">
 </video>
 <p style="color: gray;">This is one of the rare times I've worked with someone else on lighting on a project. I think we did good!</p>   
