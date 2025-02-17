@@ -39,7 +39,7 @@ I'm proud to introduce some of the projects I've recently been involved in. Each
   <div class="project">
     Retro-styled Video Game Prototype
     <div class="demo">Includes a live demo!</div>
-    <img class="yo" src="Projects/Menu Icons/PocketMegBigCrop.PNG" alt="Megan video game project">
+    <img src="Projects/Menu Icons/PocketMegBigCrop.png" alt="Megan video game project">
   </div>
 </a>
 <a href="FakeInteriors">
