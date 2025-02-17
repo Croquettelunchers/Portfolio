@@ -45,7 +45,8 @@ Sprinkling a bit of shader magic, I neutralized the undesired chromatic aberatio
 ### Particles
 
 Cubemap rendering has a known weakness; screenspace effects like particles's built-in look-at cause the edges of the 6 cameras to show. 
-<img src="Projects/TheTentaconte/SmokeLines.PNG" alt="SoundSignals" style="height: 280px; width: auto">  
+
+<img src="Projects/TheTentaconte/SmokeLines.PNG" alt="SoundSignals" style="height: 280px; width: auto; margin: 0 auto;">  
 <span style="color: gray;">Yikes!</span>
 
 The best solution to this is to reorient the particles to perform a cylindrical look-at (instead of towards the camera's *plane* or any other form of Spherical Look-at). There are 2 accessible ways of doing this <span style="color: gray;">without getting real hacky and extending upon Shuriken Particles</span>, using **VertexShading** or the VFX graph.  
@@ -54,7 +55,7 @@ The best solution to this is to reorient the particles to perform a cylindrical 
 - if you group-edit parameters, the whole parameter stack for all these object gets wiped. 
 - if you switch platforms, all VFX graphs need to be manualy re-compiled.   
 
-<img src="Projects/TheTentaconte/FixedAxisUP.PNG" alt="SoundSignals" style="height: 280px; width: auto">  
+<img src="Projects/TheTentaconte/FixedAxisUP.PNG" alt="SoundSignals" style="height: 280px; width: auto; margin: 0 auto;">  
 <span style="color: gray;">VFX Graph fixed Axis Up solution. Sprites are skewed but displaying properly. Distortions may still be required.</span>   
 
 Alternatively, adding this function in a shader fixes the issue. 
