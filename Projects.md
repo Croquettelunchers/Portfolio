@@ -17,7 +17,7 @@
 	width: 200px;
 	height: 150px;
 }
-.project a, a:visited {
+.project a, .project a:visited {
 	color: black;
 }
 .project a:hover {
