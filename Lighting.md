@@ -2,7 +2,7 @@
 
 # Lighting
 
-> Done in the **Unity** engine, using their in-house lighting tools.
+> Done in the **Unity** engine, using our in-house lighting tools.
 
 For this project I worked on cameras, lighting, materials, numerous shaders and post-processing.  
  
