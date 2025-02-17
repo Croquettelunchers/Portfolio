@@ -136,7 +136,6 @@ Here is how I approached the feature:
 3. The Trail Mimics receive the event and manage how the effect looks and occurs.
 
 <img src="Projects/Megan/TrailFunction.PNG" alt="the trail pool manager" style="height: auto; width: auto">  
-
 <span style="color: gray;">This is the main trail function coded with Bolt visual scripting.</span>
 
 Forming the **frequency** to send pooling events is this: Trail duration / the total number of trail objects.  
@@ -222,6 +221,7 @@ As a part-time musician I also composed a few tracks for the game using [Ableton
   <source src="Projects/Megan/MegamanCharacterSelectScreen3.wav" type="audio/wav">
     PS1-Style
 </audio>
+<br>
 <audio controls>
   <source src="Projects/Megan/CharacterSelect.mp3" type="audio/mpeg">
     NES-Style
