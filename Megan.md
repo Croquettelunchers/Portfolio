@@ -15,8 +15,8 @@
     border: none;
     cursor: pointer;
     color: #ffcc00;
-    display: inherit;
-    font-size: 18xpx;
+    display: revert;
+    font-size: 18px;
   }
   details > summary:hover {
     color: #ffeb9b;
@@ -51,7 +51,7 @@
   </ul>
 </details>
 
-<details>
+<details style="margin-bottom: 20px">
   <summary>Features Gallery</summary>
   <video controls width="580" style="display: block; margin: 0 auto; padding-top: 15px">
     <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4"> 
@@ -112,7 +112,7 @@
 > [Aseprite](https://www.aseprite.org/) and Pixly were used to create the sprite artwork.  
 > Most of the code was done using visual scripting in **Unity**.  
 
-<video controls width="580" style="display: block; margin: 0 auto; 20 px auto;">
+<video controls width="580" style="display: block; margin: 0 auto 20px auto;">
   <source src="Projects/Megan/LilVAims.mp4" type="video/mp4"> 
 </video>  
 
@@ -166,7 +166,7 @@ I chose to collapse the Blue color channel onto the Red one, this is what the pr
 <img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">  
 And this is the texture the UV are being fed to:  
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
-<spanp style="color: gray;">An excessively more precise version of it is used, when needed.</span>
+<span style="color: gray;">An excessively more precise version of it is used, when needed.</span>
 
 The more **subdivisions**, the more precise the LUT works.  
 Photoshop and Aseprite have the capacity to convert images to **Indexed colors**, that's the secret sauce.  
