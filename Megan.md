@@ -100,7 +100,7 @@
 > [Aseprite](https://www.aseprite.org/) and Pixly were used to create the sprite artwork.  
 > Most of the code was done using visual scripting in **Unity**.  
 
-<video controls width="580" style="display: block; margin: 0 auto;">
+<video controls width="580" style="display: block; margin: 0 auto; 20 px auto;">
   <source src="Projects/Megan/LilVAims.mp4" type="video/mp4"> 
 </video>  
 
@@ -145,7 +145,7 @@ This method provides many benefits: since the LUT is occuring localy (as opposed
 Colors can be tweened dynamicaly and always remain compliant with the artistic direction.  
 
 <img src="Projects/Megan/GBLUTMeg.PNG" alt="NesLUT" style="height: 100px; width: auto">  
-<p style="color: gray;">A Gameboy LUT Megan next to her NES counterpart.</p>
+<span style="color: gray;">A Gameboy LUT Megan next to her NES counterpart.</span>
 
 Since Texture Samplers' UV coordinates can be boiled down to simple gradient information I use it in Surface Shading to remap the incoming sprites and their color info into another texture sample as UV, effectively constraining our material to displaying only using a specific palette.  
 Now, UVs are **Vector2 coordinates** and colors are Vector3 so we need to crunch down one of our channels somehow.  
@@ -154,7 +154,7 @@ I chose to collapse the Blue color channel onto the Red one, this is what the pr
 <img src="Projects/Megan/LUTFunction.PNG" alt="LutFunction" style="height: auto; width: auto">  
 And this is the texture the UV are being fed to:  
 <img src="Projects/Megan/NesLUTCompact2.png" alt="NesLUT" style="height: auto; width: auto">  
-<p style="color: gray;">An excessively more precise version of it is used, when needed.</p>  
+<spanp style="color: gray;">An excessively more precise version of it is used, when needed.</span>
 
 The more **subdivisions**, the more precise the LUT works.  
 Photoshop and Aseprite have the capacity to convert images to **Indexed colors**, that's the secret sauce.  
@@ -174,13 +174,13 @@ For improved fluidity it's important to leave as much code as possible outside o
 
 <img src="Projects/Megan/StateMachine1.PNG" alt="StateMachine" style="height: auto; width: auto">  
 <span style="color: gray;">Megan's core state machine</span> 
-<br/>
+
 <img src="Projects/Megan/StateMachine2.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<p style="color: gray;">Megan's main state function repository</p>  
-<br/>
+<span style="color: gray;">Megan's main state function repository</span>  
+
 <img src="Projects/Megan/StateMachine3.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<span style="color: gray;">Useful Functions</span>  
-like these help recycle features accross objects and states. i.e.: the OneHP function triggers Death upon receiving any amount of damage.  
+
+<span style="color: gray;">Useful Functions</span> like these help recycle features accross objects and states. i.e.: the OneHP function triggers Death upon receiving any amount of damage.  
 Well-made functions dramaticaly speed up the development and testing of features. One of my favourite function is "Play until animation is over" which can be used to automaticaly destroy or deactivate sprite-based animated objects. <br/>
 
 ### Megan's Animator
@@ -192,15 +192,15 @@ Megan's character features **60 animation states** (at the time this was written
 What I call Animation Indexes are states in an animator featuring lots of animations that are (almost) entirely dependent on a single integer to run. The goal is to reduce what other people have dubbed "**animator hell**" that naturaly occurs when an animator is trying to do too much logic, resulting in an extremely complicated web in the animator.
 
 <img src="Projects/Megan/AnimatorIndex.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<p style="color: gray;">The Smashing Index and its state.</p>  
+<span style="color: gray;">The Smashing Index and its state.</span>  
 
 Animator **Blend states** are meant to handle complex compound movements but they also find their use in sprite handling when animations need to run in a parallel fashion. In the example below, Megan's walk animation won't stumble (or reset) when charging a shot, shooting or being on cooldown from firing.
 
 <img src="Projects/Megan/AnimatorBlendStates.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<p style="color: gray;">Walk cycles.</p>  
+<span style="color: gray;">Walk cycles.</span>
 
 <img src="Projects/Megan/HurtState.PNG" alt="StateMachine" style="height: auto; width: auto">  
-<p style="color: gray;">Other uses for blend states.</p>  
+<span style="color: gray;">Other uses for blend states.</span>
 
 ## Soundtrack
  
