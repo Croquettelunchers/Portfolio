@@ -91,11 +91,11 @@ I made around 40% of one of the project's sounds! Mario64-style recycling potent
 
 With the exception of that one hair strand from Dounia's facial animation loop, The entirety of her hair is made of maths. 
 
-<video controls width="560" style="display: block; margin: 0 auto;">
+<video controls width="560" style="display: block; margin: 0 auto 10px auto;">
   <source src="Projects/TheTentaconte/DouniaHair1.mp4" type="video/mp4">
 </video>
 
-<video controls width="560" style="display: block; margin: 0 auto;">
+<video controls width="560" style="display: block; margin: 0 auto 15px auto;">
   <source src="Projects/TheTentaconte/DouniaHair2.mp4" type="video/mp4">
 </video>
 
