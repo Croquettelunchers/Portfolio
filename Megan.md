@@ -111,11 +111,11 @@
 
 > [Aseprite](https://www.aseprite.org/) and Pixly were used to create the sprite artwork.  
 > Most of the code was done using visual scripting in **Unity**.  
-<!--
+
 <video controls width="580" style="display: block; margin: 0 auto 20px auto;">
   <source src="Projects/Megan/LilVAims.mp4" type="video/mp4"> 
 </video>  
--->
+
 ## Live Demo
 
 Try it yourself! Play it live with Unity WebGl's player on your browser using your keyboard, game controller or on your mobile device.
