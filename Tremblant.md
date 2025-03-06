@@ -13,7 +13,7 @@ For this project my task was to convert an entire existing project to a winter e
 ## Solution
 
 Here was my approach:  
-- Introduce a single new **Global shader property**.  
+- Introduce a single **Global shader property** to control the whole system.  
 - Operate at **surface shading** level.  
 - All the project's shaders structure follow this pattern:  
 <img src="Projects/Tremblant/StructureofSnowup.PNG" alt="Structure" style="height: auto; width: auto">  
