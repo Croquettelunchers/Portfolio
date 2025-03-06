@@ -6,7 +6,7 @@
 
 Every once in a while a client hits you with some Cyberpunk-grade "*this is an experience*" design.  
 These, are, **AWESOME**. Often times they will feature extensive motion design added to their UI experience, with quirky animated gizmos or transitions.
-Typically, these designs share a base set of common animation "rules" such starting with an expansion, shapes completions, fades, etc.
+Typically, these designs share a base set of common animation "rules" such as expansions, shapes completions, fades, etc.
 
 Check out the following videos for examples for custom VFX requests in application.
 
