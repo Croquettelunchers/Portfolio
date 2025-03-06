@@ -15,7 +15,7 @@ I call them UV-based interiors. The distinction is important because they become
 We achieve this by using the right projection matrix: **WorldToTangent** and multiplying it with our **WorldPosition**, then we divide this with fractionnal parts (**frac**) of our **Vertex Coordinates**, all that's left at this point is to **DDX() DDY()** the previous result. <span style="color: gray;">(These functions are derivatives, I've never had college maths so I'm not gonna pretend like I know how it works under the hood)</span> DDX and DDY effectively compare the variations between neighboring pixels and, if done right, ultimately provide us with fully turnable and rotatable surfaces.  
 
 <img src="Projects/InteriorShader/DDXDDY.PNG" alt="DDXDDY" style="height: auto; width: auto">  
-<span style="color: gray;">That was the hard part! The rest is simply a combination of masks and blends.</span>  
+<span style="color: gray;">That was the hard part! The rest is simply a combination of ViewDir masks and blends.</span>  
 
 <br/>
 
@@ -25,7 +25,7 @@ We achieve this by using the right projection matrix: **WorldToTangent** and mul
 Notice how the appartments on the extremities of the building are see-through. This is achieved using reserved udims.
 
 The very first iteration of the shader used a color map for randomization and coloration but even a big color map wasn't sufficent; humans are too good at pattern recognition.
-So I used one of these mathematical functions: ceil, floor, trunc or round with multiple single single-channel noise generators to produce truly convincing random patterns.
+So I rounded down multiple single-channel noise generators to produce truly convincing random patterns.
 
 <img src="Projects/InteriorShader/InteriorShader3.gif" alt="BuildingCapture" style="height: auto; width: auto">  
 <br/>
