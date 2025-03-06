@@ -11,6 +11,6 @@ For this project I worked on cameras, lighting, materials, numerous shaders and 
 </video>
 <br>
 
-I was very excited to use **physic-based lighting** for a client's project. We were very meticulous over this assigment:
-I think I must have been back and forth on the fog curve around 12 times! The trees have been retoned 4 times. 
-The end results paid off and did set the technical standard for following projects.  
+It was the first outside of the prototype box to use **physicaly-based lighting** with realtime GI (global illumination) and lightbounces for an actual client, it was exciting to work on.
+I think I went back and forth on the fog curve like 12 times. We must have retoned the trees 4 times.
+This was going to set the trend for so many future projects to come. I've been told that Years later this is still the benchmark within the company.
