@@ -46,43 +46,43 @@ I'm proud to introduce some of the projects I've recently been involved in. Each
 	Retro-styled Video Game Prototype
     <span class="demo">Includes a live demo!</span>
     <img src="Projects/Menu Icons/PocketMegBigCrop.png" alt="Megan video game project">
-  </a>
+  </a>  
 </div>
 <div class="project">
   <a href="FakeInteriors">
     Interior Shader
     <img src="Projects/Menu Icons/InteriorsShader4.png">
-  </a>
+  </a>  
 </div>
 <div class="project">
   <a href="Interiors">
     Interior Lightbaking
     <img src="Projects/Menu Icons/Interior1.png">
-  </a>
+  </a>  
 </div>
 <div class="project">
   <a href="VFX">
 	VFX
 	<img src="Projects/Menu Icons/UIReticle2.png">
-  </a>
+  </a>  
 </div>
 <div class="project">
   <a href="Tremblant">
 	Tremblant Winter-Shading
 	<img src="Projects/Menu Icons/Tremblant.png">
-  </a>
+  </a>  
 </div>
 <div class="project">
   <a href="Tentaconte">
 	Tentaconte
 	<img src="Projects/Menu Icons/TentacontePhoto.png">
-  </a>
+  </a>  
 </div>
 <div class="project">
   <a href="Lighting">
 	Lighting
 	<img src="Projects/Menu Icons/Lighting.png">
-  </a>
+  </a>  
 </div>
 
 
