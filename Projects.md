@@ -6,7 +6,7 @@
 	border-top: 1px solid #ffcc00; 
 	border-left: 3px solid #e8e8e8;
 	height: 75px;
-	padding: 15px;
+	padding: 35px;
 	font-size: 22px;
 	background: linear-gradient(to right, rgba(250,204,0,1), rgba(250,204,0,0));
 	margin-bottom: 75px;
@@ -16,6 +16,7 @@
 	border: 1px solid #ffcc00;
 	width: 200px;
 	height: 150px;
+	
 }
 .project a, .project a:visited {
 	color: black;
