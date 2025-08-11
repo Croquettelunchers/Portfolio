@@ -1,6 +1,6 @@
 [About Me](index.md) | [Projects](Projects.md) 
 
-# VFX
+# UI
 
 ## Next-Level User Experience
 
