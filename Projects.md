@@ -1,33 +1,90 @@
-[Home](index.md) | [Projects](Projects.md) 
+[About Me](index.md) | [Projects](Projects.md) 
 
-<!--
-<img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan, The game" width="20%" />
-<img src="Projects/Interiors/Interior1.png" alt="Interiors" width="20%" />
--->
+<style>
+.project {
+	position: relative;
+	border-top: 1px solid #ffcc00; 
+	border-left: 3px solid #e8e8e8;
+	height: 75px;
+	padding: 15px;
+	font-size: 22px;
+	background: linear-gradient(to right, rgba(250,204,0,1), rgba(250,204,0,0));
+	margin-bottom: 110px;
+}
+.project img {
+	float: right;
+	border: 1px solid #ffcc00;
+	width: 200px;
+	height: 150px;
+	
+}
+.project a, .project a:visited {
+	color: black;
+}
+.project a:hover {
+	color: #004c52;
+	text-decoration: underline;
+}
+.demo {
+	font-size: 18px;
+	position: absolute;
+    bottom: 10px;
+	left: 35px;
+	padding: 5px 8px;
+	border: 1px solid #353535;
+	border-radius: 5px;
+	background-color: #353535;
+	color: #d7cfbe;
+}
+</style>
 
+# Projects
 
-<div style="display: flex-wrap: wrap;gap: 10px;">
+I'm proud to introduce some of the projects I've recently been involved in. Each offers a different and interesting technical challenge.
+
+<div class="project">
   <a href="Megan">
-    <img src="Projects/Megan/PocketMegBigCrop.PNG" alt="Megan video game project" style="height: 200px; width: auto">
-  </a>
-  <a href="FakeInteriors">
-    <img src="Projects/InteriorShader/InteriorsShader4.jpg" alt="Image 3" style="height: 200px; width: auto">
-  </a>
-  <a href="Interiors">
-    <img src="Projects/Interiors/Interior1.png" alt="Image 2" style="height: 200px; width: auto">
-  </a>
-  <a href="VFX">
-    <img src="Projects/VFX/UIReticle2.jpg" alt="Image 3" style="height: 200px; width: auto">
-  </a>
-  <a href="Tremblant">
-    <img src="Projects/Tremblant/Tremblant.PNG" alt="Image 3" style="height: 200px; width: auto">
-  </a>
-  <a href="Tentaconte">
-    <img src="Projects/TheTentaconte/TentacontePhoto.webp" alt="Image 3" style="height: 200px; width: auto">
-  </a>
-  <a href="Lighting">
-    <img src="Projects/InteriorShader/Lighting.PNG" alt="Image 3" style="height: 200px; width: auto">
-  </a>
+	Retro-styled Video Game Prototype
+    <span class="demo">Includes a live demo!</span>
+    <img src="Projects/Menu Icons/PocketMegBigCrop.png" alt="Megan video game project">
+  </a>  
 </div>
+<div class="project">
+  <a href="FakeInteriors">
+    Interior Shader
+    <img src="Projects/Menu Icons/InteriorsShader4.png">
+  </a>  
+</div>
+<div class="project">
+  <a href="Interiors">
+    Interior Lightbaking
+    <img src="Projects/Menu Icons/Interior1.png">
+  </a>  
+</div>
+<div class="project">
+  <a href="VFX">
+	VFX
+	<img src="Projects/Menu Icons/UIReticle2.png">
+  </a>  
+</div>
+<div class="project">
+  <a href="Tremblant">
+	Tremblant Winter-Shading
+	<img src="Projects/Menu Icons/Tremblant.png">
+  </a>  
+</div>
+<div class="project">
+  <a href="Tentaconte">
+	Tentaconte
+	<img src="Projects/Menu Icons/TentacontePhoto.png">
+  </a>  
+</div>
+<div class="project">
+  <a href="Lighting">
+	Lighting
+	<img src="Projects/Menu Icons/Lighting.png">
+  </a>  
+</div>
+
 
 

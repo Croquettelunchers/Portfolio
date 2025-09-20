@@ -1,4 +1,4 @@
-[Home](index.md) | [Projects](Projects.md) 
+[About Me](index.md) | [Projects](Projects.md) 
 
 [Back To Megan](Megan.md)
 
@@ -9,8 +9,8 @@
 | Walk | | A or D | Left, Right |
 | Crouch | | S | Down |
 | Slide | | S + Space | Down + South Button |
-| Sprint | | Row 1B | Row 1C |
-| Cling to walls | Touch a wall while falling | Row 2B | Row 2C |
+| Sprint | | S then A or D | Down then Forward |
+| Cling to walls | Touch a wall while falling |  |  |
 | Actions | | | |
 | Shoot charged shots | Charged shots only for now, maybe, who knows? | Press and hold Q or K, then release | Press and hold Button West, then release |
 | Grab (or rip) | Nearby things in front or under her | Q or K | Button West |
