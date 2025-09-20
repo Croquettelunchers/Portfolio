@@ -13,6 +13,14 @@ This was never meant to be a portfolio piece (but here we are). It was designed 
 > **Aseprite** and **Pixly** were used to create the sprites.  
 > Most of the code was done using visual scripting in **Unity**.  
 
+<br/>
+
+<video controls width="580" style="display: block; margin: 0 auto;">
+  <source src="Projects/Megan/LilVAims.mp4" type="video/mp4"> 
+</video>  
+
+<br/>
+
 ## Technical features:
 
 ### Pooling
@@ -120,43 +128,17 @@ Animator **Blend states** are meant to handle complex compound movements but the
 ---
 <br/>
 
-
+<a href="https://croquettelunchers.github.io/Megan/">
+    <img src="Projects/Megan/Shaman.gif" alt="Megan video game project" style="height: 100px; width: auto">
+  </a>  
+  
 [give it a spin!](https://croquettelunchers.github.io/Megan/)  
 
 <br/>
 
-<details>
-  <summary>Megan Controls: 🔽</summary>
-
+[Megan Controls](MeganControls.md)
 
 <br/>
-  <!-- Add a blank line after the <summary> and before the table -->
-<br/>
-
-| Action | Info | Keyboard Controls | Controller Controls |
-|--------|------|-------------------|---------------------|
-| Movement | | | |
-| Jump | | Space | South Button |
-| Walk | | A or D | Left, Right |
-| Crouch | | S | Down |
-| Slide | | S + Space | Down + South Button |
-| Sprint | | Row 1B | Row 1C |
-| Cling to walls | Touch a wall while falling | Row 2B | Row 2C |
-| Actions | | | |
-| Shoot charged shots | Charged shots only for now, maybe, who knows? | Press and hold Q or K, then release | Press and hold Button West, then release |
-| Grab (or rip) | Nearby things in front or under her | Q or K | Button West |
-| Throw | Or drop things when grounded | Q or K | Button West |
-| Smash held items | Press repeatedly to pump up a smash to insane proportions while airborne | Q or K | Button West |
-| Poyo Transform! | Turn her friend Poyo the flying bird into a soccer ball | O | R2 |
-| Kick | Kick soccer balls straight, with a curve and dragon-kick 'em in the air | J | L1 |
-| Dribble the ball | Reacts to jumps and slides | | |
-| Hack | Hack into some larger enemies and Consoles to take control of them by standing on top of them | | |
-| Stop hacking | Stop hacking by jumping out | Space | Button South |
-| Switch to V | Change character | Right Shift | |
-
-</details>
-
- <br/>
 
 <details>
  <summary>Here are a few notes about the design🔽</summary>
@@ -177,52 +159,62 @@ I'm also trying to follow MetalWarriors or DeadSpace's **no UI** philosophy and 
 
 <details>
  <summary>Display Gallery🔽</summary>
-<div style="display: flex-wrap: wrap;gap: 20px;">
-    <video controls width="580" style="display: block; margin: 0 auto;">
+
+
+<video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSprints.mp4" type="video/mp4"> 
 </video>
 Megan Sprints
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSlides.mp4" type="video/mp4">
 </video>
 Megan Slides
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganGrabs.mp4" type="video/mp4">
 </video>
 Megan Grabs
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganThrows.mp4" type="video/mp4">
 </video>
 Megan Throws
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganScandalousSmash.mp4" type="video/mp4">
 </video>
 Scandalous Smashes
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRepeatedJumps.mp4" type="video/mp4">
 </video>
 Smash-a-jumping
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganRipsAndHacks.mp4" type="video/mp4">
 </video>
 Megan Rips and Hacks
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganHardcoreDeathnimation.mp4" type="video/mp4">
 </video>
 Megan hardcore death animation
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffs.mp4" type="video/mp4">
 </video>
 Megan Fisticuffs
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganFisticuffRandomness.mp4" type="video/mp4">
 </video>
 Megan Fisticuff Randomness
+<br/>
     <video controls width="580" style="display: block; margin: 0 auto;">
   <source src="Projects/Megan/MeganSoccer.mp4" type="video/mp4">
 </video>
 Megan Soccer
-</div>
 </details>  
 
 <br/>
