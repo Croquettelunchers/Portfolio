@@ -25,19 +25,19 @@ My reference was foaming, clumping, and flowing faster on the sides which got me
 
 ## Firepit
 
-This fire was designed specificaly for firepits. It is textured in worldspace offering ease of scalability and constant aspect for its texture.
+This fire VFX was designed specificaly for firepits. It is textured in worldspace offering ease of scalability and constant aspect for its texture.
 It is composed of 5 quads. 2 for both the X and Z axis and another one facing upwards.  
 
 It's important to note that these projects' lux range varies from ~50lux at night to ~150 000lux at day as they are using physicaly-based light ranges. With this level of variation, most vfx and world-space UI shaders need some degree of adaptation.  
 
-This version of the shader was adapted to Smartpixel's real estate needs: a cozy flame, with a clean rich-feel, minimal smoke and no unruly embers.  
+This version of the shader was conformed to Smartpixel's real estate needs: a cozy flame, with a clean rich-feel, minimal smoke and no unruly embers. Chic and perfectly under control.
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/DancingFireSeq.mp4" type="video/mp4">
 </video>
 <p style="color: gray;">Final version</p>
 
-This one is still under development, it features particles for embers and thicker smoke.  
+This one is still under development, it features particles for embers, thicker smoke and an extra camera-facing quad for heat deformation.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/DancingFire.mp4" type="video/mp4">
