@@ -5,7 +5,8 @@
 ## Waterfall and Fountains
 
 I was mandated to produce fountains and a waterfall for one of Smartpixel's app.  
-The fountains and splashes are pretty standard shuriken particles with depth-fading, some custom normal-handling equations for slightly more consistently plausible tints throughout the various possible lighting settings.  
+The fountains and splashes are pretty standard shuriken particles with depth-fading and a 4-frame animation etched at the speed of light in Krita <span style="color: gray;">Krita is an open source photoshop.</span>. 
+They use some custom normal-handling equations for slightly more consistently plausible tints for when they're lit vs under the shade.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/Waterfall.mp4" type="video/mp4">
@@ -19,6 +20,8 @@ A big bummer for me was that they saved so little budget for this that I had to 
   <source src="Projects/VFX/WaterfallProto.mp4" type="video/mp4">
 </video>
 <p style="color: gray;">Prototype version with additionnal foaming and tweaks</p>
+
+My reference was foaming, clumping, and flowing faster on the sides which got me scratching my head for a few minutes there. 
 
 ## Firepit
 
