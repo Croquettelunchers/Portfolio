@@ -5,7 +5,7 @@
 ## Waterfall and Fountains
 
 I was mandated to produce fountains and a waterfall for one of Smartpixel's app.  
-The fountains and splashes are pretty standard shuriken particles with depth-fading and a 4-frame animation etched at the speed of light in Krita <span style="color: gray;">Krita is an open source photoshop.  </span>. 
+The fountains and splashes are pretty standard shuriken particles with depth-fading and a 4-frame animation etched at the speed of light in Krita <span style="color: gray;">Krita is an open source photoshop.</span>   
 They use some custom normal-handling equations for slightly more consistently plausible tints for when they're lit vs under the shade.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
