@@ -47,7 +47,7 @@ This one is still under development, it features particles for embers, thicker s
 Notice the light variations, I am using a regular point light with a script I've written that moves it erraticaly and changes its intensity over time.  
 Coupled with it, I am also working on a shader feature that ultimately would work as a shrink-wrap decal making use of Unity's animatable voronoi noise to add an organic touch to the light, bringing us closer to the dancing shadows that a firepit casts.  
 
-For the time being, it's in the form of a global-parameter feature applied on the neighboring surfaces. Until I start working on the decal system.
+For the time being, it's in the form of a global-parameter feature applied on the neighboring surfaces. It will be so until I start working on the decal system.
  
 <img src="Projects/VFX/DancingFireShadeController.PNG" alt="" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
