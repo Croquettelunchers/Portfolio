@@ -63,7 +63,8 @@ For the time being, it's in the form of a global-parameter feature applied on th
 
 ## Automatic Colorizer
 
-Automatic Colorizer is a feature that randomizes props' colors depending on their world position. It's a neat trick to add variations for static trees and any prefab that appears repeatedly in the background.
+Automatic Colorizer is a shader feature that randomizes props' colors depending on their world position. It's a neat trick to add variations for static trees and any prefab that appears repeatedly in the background.  
+The color could be applied dynamicaly on spawn if the cars were animated, but alas, they weren't. 
 This one is handling colors only but it's possible to distort meshes and create all manners of variations without introducing new draw calls in the render queue.
 This specific case is sampling a micro 16x16 texture to use as color palette, which still provides a whopping 256 variations. 
 
