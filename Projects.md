@@ -42,13 +42,7 @@
 
 I'm proud to introduce some of the projects I've recently been involved in. Each offers a different and interesting technical challenge.
 
-<div class="project">
-  <a href="Megan">
-	Retro-styled Video Game Prototype
-    <span class="demo">Includes a live demo!</span>
-    <img src="Projects/Menu Icons/PocketMegBigCrop.png" alt="Megan video game project">
-  </a>  
-</div>
+
 <div class="project">
   <a href="FakeInteriors">
     Interior Shader
@@ -83,6 +77,12 @@ I'm proud to introduce some of the projects I've recently been involved in. Each
   <a href="Lighting">
 	Lighting
 	<img src="Projects/Menu Icons/Lighting.png">
+  </a>  
+</div>
+<div class="project">
+  <a href="Megan">
+	Personnal Projects
+    <img src="Projects/Menu Icons/PocketMegBigCrop.png" alt="Megan video game project">
   </a>  
 </div>
 
