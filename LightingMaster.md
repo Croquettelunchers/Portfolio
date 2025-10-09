@@ -15,19 +15,6 @@ This was the first outside of the prototype box to use **physicaly-based lightin
 I think I went back and forth on the fog curve like 12 times. We must have retoned the trees 4 times.  
 I've been told that years later this is still the lighting benchmark within the company.  
 
-## Cameras
-My job as lighting artist extends to positionning and editing cameras' field of freedom for scenarios.
-The user is more often than not in control of the camera, **but**, we do control the landing view in which those cameras will set themselves up and this way, we can make full use of vanishing points and perspective lines to really bring out our subject. There is a But to this but which leads me to - UX Strain.  
-
-### UX strain
-seizing camera control creates strain to the user. There are some cryptic rules to this.  
-Consider the contextual change from the view of the main building to the same building's environment view.  In this context you DO NOT want any yaw change but in the context of going to see the pool from the garden, for example, it will be perfectly acceptable. 
-
-### Touch screen controls and Orbit cameras
-One stapple feature of archviz apps are orbit cameras, it is slightly more desirable to have orbit cameras behave in a turntable fashion with touchscreens. So if you touch-drag (or click-drag) from right to left, the foreground follows from right to left, and the background goes the opposite way, from left to right.  
-That is true for 3rd person views. In any 1st person view, in order for this to feel consistent, you will need to *invert the drag function*.  
-
-
 If you want to see more, you can visit https://www.smartpixel.com/ or their Youtube page,  
 I've had a hand in more than 50 of their projects all over the world:  
 
@@ -41,7 +28,17 @@ https://www.youtube.com/live/f1MLiwH65rA
 
 https://www.youtube.com/live/_gLVd84uaDU  
 
+## Cameras
+My job as lighting artist extends to positionning and editing cameras' field of freedom.
+The user is more often than not in control of the camera, **but**, we do control the landing view in which those cameras will set themselves up and this way, we can make full use of vanishing points and perspective lines to really bring out our subject. <span style="color: gray;">Similarly, in a videogame, this happens when players enter a new room</span>
 
+### UX strain
+seizing camera control creates strain to the user and there are some cryptic rules to this.  
+Consider the contextual change from the view of the main building to the same building's environment view.  In this context you DO NOT want any yaw change but in the context of going to see the pool from the garden, for example, it will be perfectly acceptable. 
+
+### Touch screen controls and Orbit cameras
+One stapple feature of archviz apps are orbit cameras, it is slightly more desirable to have orbit cameras behave in a turntable fashion with touchscreens. So if you touch-drag (or click-drag) from right to left, the foreground follows from right to left, and the background goes the opposite way, from left to right.  
+That is true for 3rd person views. In any 1st person view, in order for this to feel consistent, you will need to *invert the drag function*.  
 
 
 # Realtime Interior Lighting
