@@ -4,47 +4,50 @@
 
 ## Waterfall and Fountains
 
-I was mandated to produce fountains and a waterfall for one of Smartpixel's app.
-The fountains and splashes are pretty standard shuriken particles with depth-fading, some custom normal-handling equations for slightly more consistently plausible tints throughout the various possible lighting settings. 
+I was mandated to produce fountains and a waterfall for one of Smartpixel's app.  
+The fountains and splashes are pretty standard shuriken particles with depth-fading and a 4-frame animation etched at the speed of light in Krita <span style="color: gray;">Krita is an open source photoshop.</span>   
+They use some custom normal-handling equations for slightly more consistently plausible tints for when they're lit vs under the shade.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/Waterfall.mp4" type="video/mp4">
 </video>
 <p style="color: gray;">Final version</p>
 
-I made a pretty decent prototype before tackling the real thing in HLSL for their custom rendering engine.
-A big bummer for me was that they saved so little budget for this that I had to cut on the foam feature in the waterfall shader altogether, which would've made it much more versatile for future cases.
+I made a pretty decent prototype before tackling the real thing in HLSL for their custom rendering engine.  
+A big bummer for me was that they saved so little budget for this that I had to cut on the foam feature in the waterfall shader altogether, which would've made it much more versatile for future cases.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/WaterfallProto.mp4" type="video/mp4">
 </video>
 <p style="color: gray;">Prototype version with additionnal foaming and tweaks</p>
 
+My reference was foaming, clumping, and flowing faster on the sides which got me scratching my head for a few minutes there. 
+
 ## Firepit
 
-This fire was designed specificaly for firepits. It is textured in worldspace offering ease of scalability and constant aspect for its texture.
-It is composed of 5 quads. 2 for both the X and Z axis and another one facing upwards.
+This fire VFX was designed specificaly for firepits. It is textured in worldspace offering ease of scalability and constant aspect for its texture.
+It is composed of 5 quads. 2 for both the X and Z axis and another one facing upwards.  
 
-It's important to note that these projects' lux range varies from ~50lux at night to ~150 000lux at day as they are using physicaly-based light ranges. With this level of variation, most vfx and world-space UI shaders need some degree of adaptation.
+It's important to note that these projects' lux range varies from ~50lux at night to ~150 000lux at day as they are using physicaly-based light ranges. With this level of variation, most vfx and world-space UI shaders need some degree of adaptation.  
 
-This version of the shader was adapted to Smartpixel's real estate needs: a cozy flame, with a clean rich-feel, minimal smoke and no unruly embers.
+This version of the shader was conformed to Smartpixel's real estate needs: a cozy flame, with a clean rich-feel, minimal smoke and no unruly embers. Chic and perfectly under control.
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/DancingFireSeq.mp4" type="video/mp4">
 </video>
 <p style="color: gray;">Final version</p>
 
-This one is still under development, it features particles for embers and thicker smoke. 
+This one is still under development, it features particles for embers, thicker smoke and an extra camera-facing quad for heat deformation.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/DancingFire.mp4" type="video/mp4">
 </video>
 <p style="color: gray;">WIP version with new features</p>
 
-Notice the light variations, I am using a regular point light with a script I've written that moves it erraticaly and changes its intensity over time.
-Coupled with it, I am also working on a shader feature that ultimately would work as a shrink-wrap decal making use of Unity's animatable voronoi noise to add an organic touch to the light, bringing us closer the dancing shadows that a firepit casts.  
+Notice the light variations, I am using a regular point light with a script I've written that moves it erraticaly and changes its intensity over time.  
+Coupled with it, I am also working on a shader feature that ultimately would work as a shrink-wrap decal making use of Unity's animatable voronoi noise to add an organic touch to the light, bringing us closer to the dancing shadows that a firepit casts.  
 
-For the time being, it's in the form of a global-parameter feature applyed on the neighboring surfaces. Until I start working on the decal system.
+For the time being, it's in the form of a global-parameter feature applied on the neighboring surfaces. It will be so until I start working on the decal system.
  
 <img src="Projects/VFX/DancingFireShadeController.PNG" alt="" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
@@ -60,28 +63,29 @@ For the time being, it's in the form of a global-parameter feature applyed on th
 
 ## Automatic Colorizer
 
-Automatic Colorizer is a feature that randomizes props' colors depending on their world position. It's a neat trick to add variations for static trees and any prefab that appears repeatedly in the background.
+Automatic Colorizer is a shader feature that randomizes props' colors depending on their world position. It's a neat trick to add variations for static trees and any prefab that appears repeatedly in the background.  
+The color could be applied dynamicaly on spawn if the cars were animated, but alas, they weren't. 
 This one is handling colors only but it's possible to distort meshes and create all manners of variations without introducing new draw calls in the render queue.
 This specific case is sampling a micro 16x16 texture to use as color palette, which still provides a whopping 256 variations. 
 
 <img src="Projects/VFX/Cars.gif" alt="" style="height: auto; width: auto">  
-<span style="color: gray;"></span>
+<span style="color: gray;">The Car shader also has a nice shellac material! but this on-the-fly gif does it no justice</span>
 
 ## Item Box 
 
-I produced this item box by doing as much as I could in-shader as a fun lightweight challenge.
-the dots and their normals are mathematical equations. 
-the exclamation mark is a texture though, but its look-at constraint and its animation are done in-shader. 
-the transparency quality, sorting and layering is guaranteed using vertex color to differentiate the external surface from the internal one. 
+I produced this item box by doing as much as I could in-shader as a fun lightweight challenge.  
+the dots and their normals are mathematical equations.   
+the exclamation mark is a texture though, but its look-at constraint and its animation are done in-shader.  
+the transparency quality, sorting and layering is guaranteed using vertex color to differentiate the external surface from the internal one.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/MysteryCube.mp4" type="video/mp4">
 </video>
-<p style="color: gray;">WIP version with new features</p>
+<p style="color: gray;"></p>
 
 ## Autochamfering
 
-Autochamfering felt like a crutial upgrade to our Archviz-heavy projects, Unchamfered edges are a well known realism-killer.  
+Autochamfering was a crutial upgrade to our Archviz projects, Unchamfered edges are a well documented realism-killer.  
 
 There are essentialy 3 rationnal ways to do auto-chamfering; 
 - dedicating a UV channel for it and scripting a tool to map out the object's vertices onto virtual shapes.
