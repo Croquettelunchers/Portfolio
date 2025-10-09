@@ -18,15 +18,15 @@ I've been told that years later this is still the lighting benchmark within the 
 If you want to see more, you can visit https://www.smartpixel.com/ or their Youtube page,  
 I've had a hand in more than 50 of their projects all over the world:  
 
-https://www.youtube.com/live/u4jk0Vfm5gg  
+[3D Sales App for Real Estate Property La Citta] https://www.youtube.com/live/u4jk0Vfm5gg  
 
-https://www.youtube.com/watch?v=8_HSRpEftAk  
+[Comcast: 3D Interactive Tour of a Digital City] https://www.youtube.com/watch?v=8_HSRpEftAk  
 
-https://www.youtube.com/live/HtmBWIdutX4  
+[ABB - Landscapes: Interactive Portfolio] https://www.youtube.com/live/HtmBWIdutX4  
 
-https://www.youtube.com/live/f1MLiwH65rA  
+[Interactive 3D Sales Tool for Harmonia Condos Real Estate Project] https://www.youtube.com/live/f1MLiwH65rA  
 
-https://www.youtube.com/live/_gLVd84uaDU  
+[Al Marjan Island - Interactive Real Estate Application] https://www.youtube.com/live/_gLVd84uaDU  
 
 ## Cameras
 My job as lighting artist extends to positionning and editing cameras' field of freedom.
