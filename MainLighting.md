@@ -18,16 +18,17 @@ I've been told that years later this is still the lighting benchmark within the 
 If you want to see more, you can visit https://www.smartpixel.com/ or their Youtube page,  
 I've had a hand in more than 50 of their projects all over the world:  
 
+
+> [3D Sales App for Real Estate Property La Citta](https://www.youtube.com/live/u4jk0Vfm5gg)
 As Lighting Lead, I often advocated for matching the colors of 3D UI elements (which were under our responsibility) to respect the client's visual identity as closely as possible.  
-> [3D Sales App for Real Estate Property La Citta](https://www.youtube.com/live/u4jk0Vfm5gg)  
 <img src="Projects/Lighting/Citta2.PNG" style="height: auto; width: auto">  
 
 <br/>
 <br/>
 
+> [Comcast: 3D Interactive Tour of a Digital City](https://www.youtube.com/watch?v=8_HSRpEftAk)
 I worked very hard on the modeling, stylization, lighting and vfx on this project's environment.    
 The client wanted to display an interconnected, pulsating city, powered by their service.  
-> [Comcast: 3D Interactive Tour of a Digital City](https://www.youtube.com/watch?v=8_HSRpEftAk)  
 <img src="Projects/Lighting/Comcast3.PNG" style="height: auto; width: auto">  
 <img src="Projects/Lighting/Comcast4.PNG" style="height: auto; width: auto">  
 
@@ -59,6 +60,7 @@ The user is more often than not in control of the camera, **but**, we do control
 ### UX strain
 seizing camera control from the user creates strain and there are some cryptic rules to this.  
 Consider the contextual change in archviz from the view of the main building to the same building's environment view.  In this context you DO NOT want any yaw change but in the context of going to see the pool from the garden, for example, it will be perfectly acceptable.  
+
 
 ### Touch screen controls and Orbit cameras
 One stapple feature of archviz apps are orbit cameras, it is slightly more desirable to have orbit cameras behave in a turntable fashion with touchscreens. So if you touch-drag (or click-drag) from right to left, the foreground follows from right to left, and the background goes the opposite way, from left to right.  
