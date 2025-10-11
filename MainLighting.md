@@ -18,23 +18,23 @@ I've been told that years later this is still the lighting benchmark within the 
 If you want to see more, you can visit https://www.smartpixel.com/ or their Youtube page,  
 I've had a hand in more than 50 of their projects all over the world:  
 
-<img src="Projects/Lighting/Citta2.PNG" style="height: auto; width: auto"> 
-As Lighting Lead, I often advocated for matching the colors of 3D UI elements (which were under our responsibility) to respect the client's visual identity as closely as possible.
+<img src="Projects/Lighting/Citta2.PNG" style="height: auto; width: auto">  
+As Lighting Lead, I often advocated for matching the colors of 3D UI elements (which were under our responsibility) to respect the client's visual identity as closely as possible.  
 > [3D Sales App for Real Estate Property La Citta] https://www.youtube.com/live/u4jk0Vfm5gg  
 
-<img src="Projects/Lighting/Comcast3.PNG" style="height: auto; width: auto"> 
-<img src="Projects/Lighting/Comcast4.PNG" style="height: auto; width: auto"> 
-I worked very hard on the modeling, stylization, lighting and vfx on this project's environment.  
-The client wanted to display an interconnected, pulsating city, powered by their service. 
+<img src="Projects/Lighting/Comcast3.PNG" style="height: auto; width: auto">  
+<img src="Projects/Lighting/Comcast4.PNG" style="height: auto; width: auto">  
+I worked very hard on the modeling, stylization, lighting and vfx on this project's environment.    
+The client wanted to display an interconnected, pulsating city, powered by their service.  
 > [Comcast: 3D Interactive Tour of a Digital City] https://www.youtube.com/watch?v=8_HSRpEftAk  
 
-<img src="Projects/Lighting/ABB1.PNG" style="height: auto; width: auto"> 
+<img src="Projects/Lighting/ABB1.PNG" style="height: auto; width: auto">  
 > [ABB - Landscapes: Interactive Portfolio] https://www.youtube.com/live/HtmBWIdutX4  
 
-<img src="Projects/Lighting/Harmonia3.PNG" style="height: auto; width: auto"> 
+<img src="Projects/Lighting/Harmonia3.PNG" style="height: auto; width: auto">  
 > [Interactive 3D Sales Tool for Harmonia Condos Real Estate Project] https://www.youtube.com/live/f1MLiwH65rA  
 
-<img src="Projects/Lighting/AlMarjan1.PNG" style="height: auto; width: auto"> 
+<img src="Projects/Lighting/AlMarjan1.PNG" style="height: auto; width: auto">  
 > [Al Marjan Island - Interactive Real Estate Application] https://www.youtube.com/live/_gLVd84uaDU  
 
 ## Editorial on cameras
