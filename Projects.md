@@ -63,7 +63,7 @@ I'm proud to introduce some of the projects I've recently been involved in. Each
 </div>
 <div class="project">
   <a href="Tremblant">
-	Tremblant Winter-Shading
+	Realtime dynamic weather system
 	<img src="Projects/Menu Icons/Tremblant.png">
   </a>  
 </div>
