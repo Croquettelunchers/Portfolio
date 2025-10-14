@@ -18,23 +18,49 @@ I've been told that years later this is still the lighting benchmark within the 
 If you want to see more, you can visit https://www.smartpixel.com/ or their Youtube page,  
 I've had a hand in more than 50 of their projects all over the world:  
 
-[3D Sales App for Real Estate Property La Citta] https://www.youtube.com/live/u4jk0Vfm5gg  
 
-[Comcast: 3D Interactive Tour of a Digital City] https://www.youtube.com/watch?v=8_HSRpEftAk  
+> [3D Sales App for Real Estate Property La Citta](https://www.youtube.com/live/u4jk0Vfm5gg)
+As Lighting Lead, I often advocated for matching the colors of 3D UI elements (which were under our responsibility) to respect the client's visual identity as closely as possible.  
+<img src="Projects/Lighting/Citta2.PNG" style="height: auto; width: auto">  
 
-[ABB - Landscapes: Interactive Portfolio] https://www.youtube.com/live/HtmBWIdutX4  
+<br/>
+<br/>
 
-[Interactive 3D Sales Tool for Harmonia Condos Real Estate Project] https://www.youtube.com/live/f1MLiwH65rA  
+> [Comcast: 3D Interactive Tour of a Digital City](https://www.youtube.com/watch?v=8_HSRpEftAk)
+I worked very hard on the modeling, stylization, lighting and vfx on this project's environment.    
+The client wanted to display an interconnected, pulsating city, powered by their service.  
+<img src="Projects/Lighting/Comcast3.PNG" style="height: auto; width: auto">  
+<img src="Projects/Lighting/Comcast4.PNG" style="height: auto; width: auto">  
 
-[Al Marjan Island - Interactive Real Estate Application] https://www.youtube.com/live/_gLVd84uaDU  
 
-## Cameras
+<br/>
+<br/>
+
+> [ABB - Landscapes: Interactive Portfolio](https://www.youtube.com/live/HtmBWIdutX4)  
+<img src="Projects/Lighting/ABB1.PNG" style="height: auto; width: auto">  
+
+
+<br/>
+<br/>
+
+> [Interactive 3D Sales Tool for Harmonia Condos Real Estate Project](https://www.youtube.com/live/f1MLiwH65rA)  
+<img src="Projects/Lighting/Harmonia3.PNG" style="height: auto; width: auto">  
+
+<br/>
+<br/>
+
+> [Al Marjan Island - Interactive Real Estate Application](https://www.youtube.com/live/_gLVd84uaDU)  
+<img src="Projects/Lighting/AlMarjan1.PNG" style="height: auto; width: auto">  
+
+
+## Editorial on cameras
 My job as lighting artist extends to positionning and editing cameras' field of freedom.
-The user is more often than not in control of the camera, **but**, we do control the landing view in which those cameras will set themselves up and this way, we can make full use of vanishing points and perspective lines to really bring out our subject. <span style="color: gray;">Similarly, in a videogame, this happens when players enter a new room</span>
+The user is more often than not in control of the camera, **but**, we do control the landing view in which those cameras will set themselves up and this way, we can make full use of vanishing points and perspective lines to really bring out our subject. <span style="color: gray;">Similarly, in a videogame, this happens when players enter a new room</span>  
 
 ### UX strain
-seizing camera control creates strain to the user and there are some cryptic rules to this.  
-Consider the contextual change from the view of the main building to the same building's environment view.  In this context you DO NOT want any yaw change but in the context of going to see the pool from the garden, for example, it will be perfectly acceptable. 
+seizing camera control from the user creates strain and there are some cryptic rules to this.  
+Consider the contextual change in archviz from the view of the main building to the same building's environment view.  In this context you DO NOT want any yaw change but in the context of going to see the pool from the garden, for example, it will be perfectly acceptable.  
+
 
 ### Touch screen controls and Orbit cameras
 One stapple feature of archviz apps are orbit cameras, it is slightly more desirable to have orbit cameras behave in a turntable fashion with touchscreens. So if you touch-drag (or click-drag) from right to left, the foreground follows from right to left, and the background goes the opposite way, from left to right.  

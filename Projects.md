@@ -44,41 +44,33 @@ I'm proud to introduce some of the projects I've recently been involved in. Each
 
 
 <div class="project">
-  <a href="FakeInteriors">
-    Interior Shader
-    <img src="Projects/Menu Icons/InteriorsShader4.png">
-  </a>  
-</div>
-<div class="project">
-  <a href="Interiors">
-    Interior Lightbaking
-    <img src="Projects/Menu Icons/Interior1.png">
-  </a>  
-</div>
-<div class="project">
   <a href="VFX">
-	VFX
+	Technical Art
 	<img src="Projects/Menu Icons/UIReticle2.png">
   </a>  
 </div>
+
 <div class="project">
-  <a href="Tremblant">
-	Tremblant Winter-Shading
-	<img src="Projects/Menu Icons/Tremblant.png">
-  </a>  
-</div>
-<div class="project">
-  <a href="Tentaconte">
-	Tentaconte
-	<img src="Projects/Menu Icons/TentacontePhoto.png">
-  </a>  
-</div>
-<div class="project">
-  <a href="Lighting">
+  <a href="MainLighting">
 	Lighting
 	<img src="Projects/Menu Icons/Lighting.png">
   </a>  
 </div>
+
+<div class="project">
+  <a href="Tremblant">
+	Realtime Dynamic Weather System
+	<img src="Projects/Menu Icons/Tremblant.png">
+  </a>  
+</div>
+
+<div class="project">
+  <a href="Tentaconte">
+	360* Interractive Experiential Events
+	<img src="Projects/Menu Icons/TentacontePhoto.png">
+  </a>  
+</div>
+
 <div class="project">
   <a href="Megan">
 	Personnal Projects
