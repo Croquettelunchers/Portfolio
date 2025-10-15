@@ -198,7 +198,7 @@ Here are a few presets for what we called "ghost buildings" which were future ph
 </video>
 <span style="color: gray;"></span>
 
-The same shader also works for transport lines, splines used to illustrate busses, subway, pedestrian paths etc. 
+The same shader also works for transport lines, splines used to illustrate busses, subways, pedestrian paths etc. 
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/TransportLines.mp4" type="video/mp4">
