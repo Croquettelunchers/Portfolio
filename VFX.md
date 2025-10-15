@@ -194,4 +194,4 @@ The same shader also works for transport lines, splines used to illustrate busse
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/TransportLines.mp4" type="video/mp4">
 </video>
-<span style="color: gray;"></span>
+<span style="color: gray;">Various versions of transport lines and how they could display through other elements</span>
