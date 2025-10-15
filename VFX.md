@@ -143,6 +143,9 @@ This solution is both quick to implement and to execute for people in production
 # UI
 
 ## Motion design
+<br/>
+
+### Armored Core-style reticle
 
 > Using a collection of vertex-colored meshes, a quad, a circle, a square, an hex and a triangle, in tandem with a dedicated shader, I produced a variety of motion design animations.
 
@@ -152,7 +155,7 @@ Check out the following videos for examples for custom UI FX requests in applica
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
 </video>
-<p style="color: gray;">Armored Core-style reticle</p>
+<p style="color: gray;"></p>
 <br/>
 
 ### Pins
