@@ -36,9 +36,9 @@ Here's a more in-depth rundown of what the shader can do:
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/InteriorShader/UV-BasedInteriorMapping.mp4" type="video/mp4">
-</video>
+</video>  
 
-
+<br/>
 
 ## Waterfall and Fountains
 
@@ -57,6 +57,7 @@ Both use some custom normal-handling equations for slightly more consistantly pl
 <p style="color: gray;">Prototype version with additionnal foaming and tweaks</p>
 
 My reference was foaming, clumping, and flowing faster on the sides which I attempted to reproduce to the best of my capacities. 
+<br/>
 
 ## Firepit
 
@@ -95,6 +96,7 @@ For the time being, it's in the form of a global-parameter feature applied on th
 
 <img src="Projects/VFX/FlickeringLight.PNG" alt="" style="height: auto; width: auto">  
 <span style="color: gray;"></span>
+<br/>
 
 ## Automatic Colorizer
 
@@ -105,6 +107,7 @@ This specific case is sampling a micro 16x16 texture to use as color palette, wh
 
 <img src="Projects/VFX/Cars.gif" alt="" style="height: auto; width: auto">  
 <span style="color: gray;">The Car shader also has a nice shellac material, but this on-the-fly gif does it no justice</span>
+<br/>
 
 ## Item Box 
 
@@ -116,7 +119,8 @@ the transparency quality, sorting and layering is guaranteed using vertex color 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/VFX/MysteryCube.mp4" type="video/mp4">
 </video>
-<p style="color: gray;"></p>
+<p style="color: gray;"></p>  
+<br/>
 
 ## Autochamfering
 
@@ -134,6 +138,7 @@ This solution is both quick to implement and to execute for people in production
   <source src="Projects/VFX/EdgeMapping.mp4" type="video/mp4">
 </video>
 <p style="color: gray;"></p>
+<br/>
 
 # UI
 
@@ -148,6 +153,7 @@ Check out the following videos for examples for custom UI FX requests in applica
   <source src="Projects/VFX/UIReticle2.mp4" type="video/mp4">
 </video>
 <p style="color: gray;">Armored Core-style reticle</p>
+<br/>
 
 ### Pins
 These are sample animations for World-space positionned pins, as you press on them they deploy to reveal information.  
@@ -162,7 +168,7 @@ Typically, these designs share a base set of common animation "rules" such as ex
   <source src="Projects/VFX/HexPin.mp4" type="video/mp4">
 </video>
 
-So, combining multiple rudimentary shapes: Quads, Circles, Hexes, Squares and Triangles, we can quickly produce a variety of dynamic UI pins and gizmos. All using the same tool.  
+<br/>
 
 ## Smartpixel's "VFX shader"
 
