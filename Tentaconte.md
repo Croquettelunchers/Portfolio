@@ -47,7 +47,6 @@ Sprinkling a bit of shader magic, I neutralized the undesired chromatic aberatio
 Cubemap rendering has a known weakness; screenspace effects like particles's built-in look-at cause the edges of the 6 cameras to show. 
 
 <img src="Projects/TheTentaconte/SmokeLines.PNG" alt="SoundSignals" style="height: 280px; width: auto; margin: 0 auto;">  
-<span style="color: gray;">Yikes!</span>
 
 The best solution to this is to reorient the particles to perform a cylindrical look-at (instead of towards the camera's *plane* or any other form of Spherical Look-at). There are 2 accessible ways of doing this <span style="color: gray;">without getting real hacky and extending upon Shuriken Particles</span>, using **VertexShading** or the VFX graph.  
 
@@ -71,21 +70,21 @@ During the prototyping phase I concluded that **Look-At Constraints** were going
 <img src="Projects/TheTentaconte/AutoLookat.PNG" alt="AutoLookat" style="height: auto; width: auto">  
 
 I didn't really give any considerations to render orders and months after I had completed a scene I had to shuffle them back to accomodate screen-wide masks... it was terrible.  
-I made this dockable window tool to help current and future me with this.   
+I made this dockable window tool to help with these issues.   
 <img src="Projects/TheTentaconte/SortRenderOrder.PNG" alt="SortRenderOrder" style="height: auto; width: auto">  
 <span style="color: gray;">It operates on selected object(s) and their children in hierarchy.</span>
 
 
 ### Audio
 
-**Audio files** in Unity's timelines can run in 2 different ways: they can play along as the timeline unravels, or they can be triggered from objects as events in the timeline. This implies that we have no control while the timeline is stopped and were in fact facing a few moments where the sounds and music needed to fade away smoothly during stops.  
+**Audio files** in Unity's timelines can run in 2 different ways: they can play along as the timeline unravels, or they can be triggered from objects as events in the timeline. This implies that we have no control while the timeline is stopped and we were in fact facing a few moments where the sounds and music needed to fade away smoothly during stops.  
 <span style="color: gray;">It's important to factor-in the possibility of rewinding the timeline</span>
 
-My solution was to make some **Custom Markers** and a little script to go with them to enable sound fading over time.  
+My solution was to make some **Custom Markers** and a short script to go with them to enable sound fading over time.  
 
 <img src="Projects/TheTentaconte/SoundSignals.PNG" alt="SoundSignals" style="height: auto; width: auto">  
 
-I made around 40% of one of the project's sounds! Mario64-style recycling potentialy saved us days.  
+I produced around 40% of one of the project's sounds. Additionnaly, pitch-shifting and in-engine editing potentialy saved us a few days.  
 
 ### Shaders
 
@@ -107,31 +106,32 @@ So I had the idea to recycle an old averaged-Blur function I had designed and sw
 <img src="Projects/TheTentaconte/AveragedBlur.PNG" alt="AveragedBlur" style="height: 250px; width: auto">  
 <span style="color: gray;">Blur! It's really nice when used with Screen Grabs.</span>
 
-### Propagation System
+### Chain of Responsibility (Event System)
 
-What I call Propagation in this context is a short network of events and tweens.
+This chain or responsibility is a short network of events and tweens.  
 
 1. The **timeline** sends these **events**: Play, Stop and ForceShutDown.  
 2. Objects are **pooled** and **sorted** *spatialy in this case: by a mix of X, Y and Z axis*.  
-3. A Master object receives the timeline events and fires similar events to individual objects in the group, at calculated intervals, *using curves for that progressive drop*.  
+3. A Master object receives the timeline events and fires similar events to individual objects in the group, at calculated intervals, *using timing curves for a progressive effect*.  
 <span style="color: gray;">At any given time the storyteller can navigate to the previous or next notch in the timeline so both peaceful and forceful interruptions apply.</span>  
-4. Slave objects trigger animations on themselves. I opted for **tweens** using visual scripting but running animators animations would've been an equaly viable option.
+4. Slave objects trigger animations on themselves. I opted for **tweens** using visual scripting but running animators animations would've been an equaly viable option.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/TheTentaconte/Propagation.mp4" type="video/mp4">
 </video>
-<span style="color: gray;">Lots of cheese in pots</span>  
+ 
 
 
 <img src="Projects/TheTentaconte/GenericList.PNG" alt="SoundSignals" style="height: auto; width: 400px">  
 <span style="color: gray;">Listing and sorting cheese pots</span>
 
 <img src="Projects/TheTentaconte/FireListEvents.PNG" alt="SoundSignals" style="height: auto; width: 400px">  
-<span style="color: gray;">My original event names are bad</span>
+
+### The Simulator
 
 I also made a tool to help 2D artists visualize how their images were going to look on-site.  
 
-All together, The Tentaconte Simulator is a standalone application that requires no knowledge of Unity to run.
+All together, The Tentaconte Simulator is a standalone application that requires no knowledge of Unity to run.  
 
 <video controls width="560" style="display: block; margin: 0 auto;">
   <source src="Projects/TheTentaconte/PortfolioTentaconteSimulator.mp4" type="video/mp4">

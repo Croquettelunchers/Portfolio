@@ -66,7 +66,7 @@ I'm proud to introduce some of the projects I've recently been involved in. Each
 
 <div class="project">
   <a href="Tentaconte">
-	360* Interractive Experiential Events
+	360° Interractive Experiential Events
 	<img src="Projects/Menu Icons/TentacontePhoto.png">
   </a>  
 </div>
