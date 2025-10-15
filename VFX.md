@@ -167,7 +167,8 @@ So, combining multiple rudimentary shapes: Quads, Circles, Hexes, Squares and Tr
 ## Smartpixel's "VFX shader"
 
 While working on the Comcast project [Comcast: 3D Interactive Tour of a Digital City](https://www.youtube.com/watch?v=8_HSRpEftAk), the client's various demands forced me to dramaticaly improve our sci-fi shading capacities. Resulting in a single all-encompassing shader covering around 90% of all Smartpixel's custom shading needs.  
-The shader features: 
+
+Smartpixel's "VFX shader" features: 
 - In-shader switches to completely toggle features for performances.
 - Depth fading
 - Render-on-top
