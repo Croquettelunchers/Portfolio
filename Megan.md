@@ -31,7 +31,7 @@
 <div style="display: table; padding-bottom: 12px">
   <img src="Projects/Megan/Shaman.gif" alt="Megan video game project" style="height: 100px; width: auto; float: left; margin: 0 15px 0 0;">
   "Megan" is a fun little pixel art platformer project that I use as a test bed for whatever comes to mind.  
-  This was never meant to be a portfolio piece (but here we are). It was designed to quench <em>The Thirst</em>. The thirst for making games.  
+  This is my Devgym, This isn't designed to be a portfolio piece, That being said, I will try to demonstrate some its technical elements.  
 </div>
 
 <details>
@@ -215,7 +215,7 @@ Animator **Blend states** are meant to handle complex compound movements but the
 
 ## Soundtrack
  
-As a part-time musician I also composed a few tracks for the game using [Ableton](https://www.ableton.com/).
+I also composed a few tracks for the game using [Ableton](https://www.ableton.com/).
 
 <audio controls>
   <source src="Projects/Megan/MegamanCharacterSelectScreen3.wav" type="audio/wav">
