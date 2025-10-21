@@ -122,7 +122,7 @@ So I had the idea to recycle an old averaged-Blur function of mine and switch-ou
 <span style="color: gray;"></span>
 
 <img src="Projects/TheTentaconte/AveragedBlur.PNG" alt="AveragedBlur" style="height: 250px; width: auto">  
-<span style="color: gray;">Blur! it's really nice when used with Screen Grabs</span>
+<span style="color: gray;"></span>
 
 
 
