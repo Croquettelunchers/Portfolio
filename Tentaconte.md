@@ -108,10 +108,10 @@ So I had the idea to recycle an old averaged-Blur function I had designed and sw
 
 ### Chain of Responsibility (Event System)
 
-This chain or responsibility is a short network of events and tweens.  
+This chain of responsibility is a short network of events and tweens.  
 
 1. The **timeline** sends these **events**: Play, Stop and ForceShutDown.  
-2. Objects are **pooled** and **sorted** *spatialy in this case: by a mix of X, Y and Z axis*.  
+2. Objects are **pooled** and **sorted** *spatialy, in this case: by vectors*.  
 3. A Master object receives the timeline events and fires similar events to individual objects in the group, at calculated intervals, *using timing curves for a progressive effect*.  
 <span style="color: gray;">At any given time the storyteller can navigate to the previous or next notch in the timeline so both peaceful and forceful interruptions apply.</span>  
 4. Slave objects trigger animations on themselves. I opted for **tweens** using visual scripting but running animators animations would've been an equaly viable option.  
