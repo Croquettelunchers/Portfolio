@@ -73,7 +73,7 @@ I'm proud to introduce some of the projects I've recently been involved in. Each
 
 <div class="project">
   <a href="Megan">
-	Personnal Projects
+	Personal Projects
     <img src="Projects/Menu Icons/PocketMegBigCrop.png" alt="Megan video game project">
   </a>  
 </div>
